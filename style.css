@@ -1,4 +1,4 @@
-{
+a {
     text-decoration: none;
 }
 
@@ -18,6 +18,10 @@ li {
     position: relative;
     text-decoration: none;
     transition-duration: 0.5s;
+}
+
+form {
+    margin-bottom: 0.5rem;
 }
 
 li a {
@@ -58,4 +62,45 @@ ul li ul:focus {
 ul li ul li {
     clear: both;
     width: 100%;
+}
+
+.footer p {
+    font-size: 15px;
+    display: flex;
+    align-items: flex-start;
+    margin: auto 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition-delay: color 350ms ease-in; 
+}
+
+.footer a:hover {
+    color: red;
+}
+
+.contact textarea {
+    display: flex;
+    width: 98.4%;
+}
+
+.footer {
+    color: white;
+    margin-bottom: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 1rem;
+    width: 100%;
+    background-color: black;
+}
+
+.contact {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    padding: 0.5rem;
 }
