@@ -1,39 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <nav>
-        <a href="#">Models</a>
-        <a href="#">Matinence</a>
-        <a href="#">Store</a>
-        <a href="#">About</a>
+        <ul>
+            <li><a href="#"><img src="/images/trion.png" alt="Barebones logo of Trion" class="home"></a></li>
+            <li><a href="#">Models</a></li>
+            <li><a href="#">Maintainence</a>
+            <ul class="dropdown">
+                <li><a href="#">Body</a></li>
+                <li><a href="#">Engine</a></li>
+                <li><a href="#">Maintainence</a></li>
+            </ul>
+        </li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
     </nav>
 
 
 
 
-
-   
+    <section class="engine">
+        <img src="/images/engine-placeholder.jpg">
+        <article class="engine-content">
+            <h2>Engine</h2>
+            <p>The engine is a state of the art 552 cubis inch, quad-cam V8 capable of an output of 2,000 horse power and running on both .</p>
+            <p>TRION's engine will guarantee a rich supercar experience like no other.</p>
+        </article>
+    </section>
     <footer class="footer">
-        <p>© Copyright of Trion Supercars 2025</p>
-        <p><a href="#">About Us</a></p>
+            <p><a href="#"><strong>About Us</strong></a></p>
+            <p>© Copyright of Trion Supercars 2025</p>
         <section class="contact">
             <h3>Contact Us</h3>
             <form>
-                <input type="text" placeholder="First Name" required>
-                <input type="text" placeholder="Last Name" required>
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
             </form>
             <form>
                 <input type="email" placeholder="Email" required>
-                <input type="number" placeholder="Phone Number" required>
+                <input type="number" placeholder="Phone Number">
             </form>
-            <textarea id="message" name="cmessage" placeholder="Message"></textarea>
+            <textarea id="message" name="cmessage" placeholder="Message" required></textarea>
         </section>
     </footer>
 </body>
+
 </html>
