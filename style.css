@@ -1,9 +1,32 @@
+@font-face {
+    font-family: "bold";
+    src: url(/fonts/bold.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "regular";
+    src: url(/fonts/regular.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "semibold";
+    src: url(/fonts/semibold.woff2) format("woff2");
+}
+
+body {
+    background-color: black;
+}
+
 a {
     text-decoration: none;
 }
 
+nav {
+
+}
+
 ul {
-    background: darkorange;
+    background-color: black;
     list-style: none;
     margin: 0;
     padding-left: 0;
@@ -11,7 +34,7 @@ ul {
 
 li {
     color: #fff;
-    background: darkorange;
+    background-color: black;
     display: block;
     float: left;
     padding: 1rem;
