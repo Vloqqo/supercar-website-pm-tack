@@ -54,6 +54,10 @@ li {
     transition-duration: 0.5s;
 }
 
+form {
+    margin-bottom: 0.5rem;
+}
+
 li a {
     color: #fff;
 }
@@ -91,4 +95,75 @@ ul li ul:focus {
 ul li ul li {
     clear: both;
     width: 100%;
+}
+
+.footer p {
+    font-size: 15px;
+    display: flex;
+    align-items: flex-start;
+    margin: auto 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: color 200ms ease-in; 
+}
+
+.contact h3 {
+    font-size: 25px;
+    margin-bottom: 0.3rem;
+}
+
+.footer a:hover {
+    color: gray;
+}
+
+.contact textarea {
+    display: flex;
+    width: 98.4%;
+}
+
+.engine-content {
+    background-image: url(images/Hexagon-backround.png);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    color: white;
+    display: inline-block;
+    padding: 0.5rem;
+    border: #B62431 solid 2px;
+}
+
+.engine {
+    display: flex;
+    height: 15vh;
+    width: 60%;
+}
+
+.engine img {
+    --shape: 20% 0%, 80% 0%, 100% 50%, 80% 100%, 20% 100%, 0% 50%;
+    clip-path: polygon(var(--shape));
+    height: 15vh;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    border-top: solid white 3px;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: black;
+    padding-bottom: 1rem;
+}
+
+.contact {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    padding: 0.5rem;
 }
