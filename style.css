@@ -198,6 +198,7 @@ input, textarea {
     border: none;
     border-radius: .2rem;
     font-family: "rehular" ;
+    color: white;
 }
 
 input::placeholder, textarea::placeholder {
