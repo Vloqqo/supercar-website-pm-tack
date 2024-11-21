@@ -16,10 +16,17 @@
 body {
     background-color: black;
     margin: 0;
+    font-family: "regular"
 }
 
 a {
     text-decoration: none;
+}
+
+a.nav {
+    border-bottom: rgb(255, 255, 255, 0.5) 1px solid;
+    padding-bottom: .3rem;
+    font-size: 1.2rem
 }
 
 ul {
@@ -32,15 +39,30 @@ ul {
     align-items: center;
     width: 100%;
     justify-content: space-around;
+    border-bottom: #fff 1px solid;
+    margin-bottom: 4vw
 }
 
 .home {
-    margin-top: .4vh;
     margin-left: -4vw;
 }
 
+.right1 {
+    margin-right: -12vw
+}
+
+.right2 {
+    margin-right: -6vw;
+}
+
+.accessibility {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
 .nav {
-    margin-left: -10vw;
 }
 
 li {
@@ -167,3 +189,15 @@ ul li ul li {
     align-items: flex-start;
     padding: 0.5rem;
 }
+
+input, textarea {
+    background-color:rgb(255, 255, 255, 0.3);
+    border: none;
+    border-radius: .2rem;
+    font-family: "rehular" ;
+}
+
+input::placeholder, textarea::placeholder {
+    color: white;
+    text-indent: .2vw;
+} 
