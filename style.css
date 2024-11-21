@@ -43,6 +43,10 @@ ul {
     margin-bottom: 4vw
 }
 
+ul.dropdown li {
+    border: 1px solid white;
+}
+
 .home {
     margin-left: -4vw;
 }
@@ -60,9 +64,6 @@ ul {
     bottom: 0;
     right: 0;
     z-index: 1;
-}
-
-.nav {
 }
 
 li {
@@ -86,7 +87,7 @@ li a {
 
 li:hover,
 li:focus-within {
-    background: red;
+    background: #B62431;
     cursor: pointer;
 }
 
@@ -148,7 +149,7 @@ ul li ul li {
 }
 
 .engine-content {
-    background-image: url(images/Hexagon-backround.png);
+    background-image: url(images/hexagon-background.png);
     background-position-x: center;
     background-position-y: center;
     background-size: cover;
@@ -156,6 +157,8 @@ ul li ul li {
     display: inline-block;
     padding: 0.5rem;
     border: #B62431 solid 2px;
+    padding-left: 10rem;
+    margin-left: -6vw
 }
 
 .engine {
