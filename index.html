@@ -1,40 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en"></html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <nav role="navigation">
-        <ul>
-            <li class="home"><a href="#"><img src="/images/trion.png" alt="Barebones logo of Trion"></a></li>
-            <li><a class="nav" href="#">Models</a></li>
-            <li><a class="nav" href="#">Maintainence</a>
-                <ul class="dropdown">
-                    <li><a class="nav" href="#">Body</a></li>
-                    <li><a class="nav" href="#">Engine</a></li>
-                    <li><a class="nav" href="#">Maintainence</a></li>
-                </ul>
-            </li>
-            <li><a class="nav" href="#">Store</a></li>
-            <li><a class="nav" href="#">About</a></li>
-            <li class="right1"><a href="#"><img src="/images/cart.png" alt="Barebones logo of Trion" class="right"></a></li>
-            <li class="right2"><a href="#"><img src="/images/account.png" alt="Barebones logo of Trion" class="right"></a></li>
-        </ul>
-        <a href="#"><img class="accessibility" src="/images/accessibility.png" alt="image to take you to accessibility options"></a>
-    </nav>
+    <header>
+        <nav role="navigation">
+            <ul>
+                <li class="home"><a href="#"><img src="/images/trion.png" alt="Barebones logo of Trion"></a></li>
+                <li><a class="nav" href="#">Models</a>
+                    <ul class="dropdown">
+                        <li><a class="nav" href="#">Nemesis</a></li>
+                        <li><a class="nav" href="#">Black Widow</a></li>
+                    </ul>
+                </li>
+                <li><a class="nav" href="#">Maintainence</a>
+                    <ul class="dropdown">
+                        <li><a class="nav" href="#">Body</a></li>
+                        <li><a class="nav" href="#">Engine</a></li>
+                        <li><a class="nav" href="#">Maintainence</a></li>
+                    </ul>
+                </li>
+                <li><a class="nav" href="#">Store</a>
+                    <ul class="dropdown">
+                        <li><a class="nav" href="#">Apparel</a></li>
+                        <li><a class="nav" href="#">COllectables</a></li>
+                    </ul>
+                </li>
+                <li><a class="nav" href="#">About</a></li>
+                <li class="right1"><a href="#"><img src="/images/cart.png" alt="Barebones logo of Trion" class="right"></a></li>
+                <li class="right2"><a href="#"><img src="/images/account.png" alt="Barebones logo of Trion" class="right"></a></li>
+            </ul>
+            <a href="#"><img class="accessibility" src="/images/accessibility.png" alt="image to take you to accessibility options"></a>
+        </nav>
+    </header>
     <section class="hero">
         <figure class="cars">
             <img class="orange" src="/images/orangecar.png">
-            <img class="black" src="/images/Nemesis.jpg">
+            <img class="black" src="/images/Nemesis.png">
         </figure>
     </section>
-    <section class>
-
+    <section class="carousel">
+        <section class="slideshow-conatiner">
+            <figure class="slides fade">
+                <img src="/images/orangecar.png">
+            </figure>
+            <figure class="slides fade">
+                <img src="/images/Black-Widow-Placeholder.jpg">
+            </figure>
+            <figure class="slides fade">
+                <img src="/images/Nemesis.png">
+            </figure><figure class="slides fade">
+                <img src="/images/engine.png">
+            </figure>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </section>
+        <section>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </section>
     </section>
     <section class="engine">
         <img class="hexagon" src="/images/engine.png">
