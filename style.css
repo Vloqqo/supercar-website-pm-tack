@@ -120,12 +120,12 @@ ul li ul li {
     width: 100%;
 }
 
-.slideshow {
+.cars {
     margin: 0;
     width: 100%;
     height: 50vh;
     background: linear-gradient(to bottom right, #3A3642 0%, #3A3642 50%, #232323 50%, #232323 100%);
-    border-bottom: 1px solid #B62431
+    border-bottom: 1px solid #B62431;
 }
 
 .footer p {
@@ -148,7 +148,7 @@ ul li ul li {
 }
 
 .footer a:hover {
-    color: gray;
+    background-color: #B62431;
 }
 
 .contact textarea {
@@ -189,7 +189,6 @@ ul li ul li {
 .engine img {
     --shape: 20% 0%, 80% 0%, 100% 50%, 80% 100%, 20% 100%, 0% 50%;
     clip-path: polygon(var(--shape));
-    height: 15vh;
 }
 
 .footer {
@@ -218,17 +217,17 @@ input, textarea {
     color: white;
 }
 
-input::placeholder, textarea::placeholder {
+input::placeholder, 
+textarea::placeholder {
     color: white;
     text-indent: .2vw;
 }
 
 img.orange {
-    margin-top: -20vh;
     transform: scaleX(-1);
-    margin-left: -4vw;
     margin-bottom: 6vh
 }
+
 /* make image transparent */
 img.black {
     margin-left: 8vw;
