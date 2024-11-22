@@ -41,6 +41,7 @@ ul {
     width: 100%;
     justify-content: space-around;
     border-bottom: #fff 1px solid;
+    z-index: 10;
 }
 
 ul.dropdown li {
@@ -61,8 +62,8 @@ ul.dropdown li {
 
 .accessibility {
     position: fixed;
-    bottom: 0;
-    right: 0;
+    bottom: 1vh;
+    right: .5vw;
     z-index: 1;
 }
 
