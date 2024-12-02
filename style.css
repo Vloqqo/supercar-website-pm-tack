@@ -257,18 +257,23 @@ textarea::placeholder {
 
 img.orange {
     transform: scaleX(-1);
-    margin-bottom: 6vh
+    margin-bottom: 6vh;
 }
 
-.carousel {
-    margin-top: 20vh;
+* {
     box-sizing: border-box;
 }
 
+.carousel {
+    width: 30vw;
+    position: absolute;
+    margin: 2vw auto auto;
+}
+
 .slideshow-container {
-    max-width: 1000px;
+    max-width: 15vw;
     position: relative;
-    margin: auto;
+    margin: 2vh auto 0 5vw;
   }
   
   /* Hide the images by default */
@@ -374,12 +379,18 @@ img.hex-img {
     padding-top: .1rem;
     height: 25vh;
     margin-left: 19.8vw;
-    rotate: 0.1deg;
-    border-bottom: #B62431 solid;
+    rotate: 0deg;
     padding-bottom: .1rem;
     height: 30vh;
     margin-left: 19.8vw;
-    margin-top: -0.3vh
+    margin-top: -0.3vh;
+}
+
+.car-description {
+    border-bottom: #B62431 solid;
+    border-width: 100%;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 
