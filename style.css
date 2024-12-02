@@ -210,10 +210,6 @@ ul li ul li {
     margin-right: -9rem
 }
 
-.hex img {
-    --shape: 20% 0%, 80% 0%, 100% 50%, 80% 100%, 20% 100%, 0% 50%;
-    clip-path: polygon(var(--shape));
-}
 
 .footer {
     border-top: solid white 3px;
@@ -364,8 +360,9 @@ img.hex-img {
     width: 80%;
     padding-top: .1rem;
     padding-bottom: .1rem;
-    height: 25vh;
+    height: 30vh;
     margin-left: 19.8vw;
+    margin-top: -0.3vh
 }
 
 
