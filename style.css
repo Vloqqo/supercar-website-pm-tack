@@ -27,8 +27,8 @@ a {
 
 a.nav {
     border-bottom: rgb(255, 255, 255, 0.5) 1px solid;
-    padding-bottom: .3rem;
-    font-size: 1.2rem
+    padding-bottom: 0;
+    font-size: 1.2rem;
 }
 
 ul {
@@ -49,12 +49,16 @@ ul.dropdown li {
     border: 1px solid white;
 }
 
+.nav {
+    
+}
+
 .home {
     margin-left: -4vw;
 }
 
 .right1 {
-    margin-right: -12vw
+    margin-right: -12vw;
 }
 
 .right2 {
@@ -96,6 +100,14 @@ li:focus-within {
 
 li:focus-within a {
     outline: none;
+}
+
+ul.header li:nth-child(3){
+    padding-right: 4rem;
+}
+
+ul.dropdown li:nth-child(3) {
+    padding-right: 1rem;
 }
 
 ul li ul {
@@ -341,10 +353,12 @@ img.hexagon {
     background-size: cover;
     background-repeat: no-repeat;
     width: 80%;
+    margin-top: -0.1vw;
     padding-top: .1rem;
-    padding-bottom: .1rem;
     height: 25vh;
     margin-left: 19.8vw;
+    rotate: 0.1deg;
+    border-bottom: #B62431 solid;
 }
 
 
