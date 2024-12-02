@@ -49,10 +49,6 @@ ul.dropdown li {
     border: 1px solid white;
 }
 
-.nav {
-    
-}
-
 .home {
     margin-left: -4vw;
 }
@@ -427,4 +423,12 @@ img.hex-img {
 
 .rectanglish p:last-of-type {
     margin-left: 34vw
+}
+
+div
+
+.list > ul {
+    display: flex;
+    flex-flow: column wrap;
+    border: none;
 }
