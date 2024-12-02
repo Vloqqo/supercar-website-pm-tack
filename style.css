@@ -59,6 +59,7 @@ ul.dropdown li {
 
 .right1 {
     margin-right: -12vw;
+    padding-right: 0
 }
 
 .right2 {
@@ -73,7 +74,7 @@ ul.dropdown li {
 }
 
 li {
-    width: 100px;
+    width: 4rem;
     color: #fff;
     background: black;
     display: block;
@@ -82,6 +83,30 @@ li {
     position: relative;
     text-decoration: none;
     transition-duration: 0.5s;
+}
+
+li.png {
+   width: 3rem; 
+}
+
+li.png2 {
+    width: 2.5rem;
+}
+
+li.little-li {
+    width: 2.7rem
+}
+
+li.little-li2 {
+    width: 3.5rem
+}
+
+li.big-li {
+    width: 10rem;
+}
+
+li.big-li:first-child {
+    margin-top: .5vh
 }
 
 form {
