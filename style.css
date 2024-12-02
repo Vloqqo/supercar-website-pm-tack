@@ -49,16 +49,13 @@ ul.dropdown li {
     border: 1px solid white;
 }
 
-.nav {
-    
-}
-
 .home {
     margin-left: -4vw;
 }
 
 .right1 {
     margin-right: -12vw;
+    padding-right: 0
 }
 
 .right2 {
@@ -73,7 +70,7 @@ ul.dropdown li {
 }
 
 li {
-    width: 100px;
+    width: 4rem;
     color: #fff;
     background: black;
     display: block;
@@ -82,6 +79,30 @@ li {
     position: relative;
     text-decoration: none;
     transition-duration: 0.5s;
+}
+
+li.png {
+   width: 3rem; 
+}
+
+li.png2 {
+    width: 2.5rem;
+}
+
+li.little-li {
+    width: 2.7rem
+}
+
+li.little-li2 {
+    width: 3.5rem
+}
+
+li.big-li {
+    width: 10rem;
+}
+
+li.big-li:first-child {
+    margin-top: .5vh
 }
 
 form {
@@ -193,13 +214,13 @@ ul li ul li {
     margin-top: -.5vh
 }
 
-
 .hex {
     display: flex;
     height: 20vh;
     width: 70%;
     flex-flow: row wrap;
-    margin-top: 10vh
+    margin-top: 10vh;
+    margin-left: 1vw;
 }
 
 .hex-alt {
@@ -209,11 +230,11 @@ ul li ul li {
     flex-flow: row wrap;
     margin-top: 10vh;
     justify-content: flex-end;
-    margin-left: 23vw
+    margin-left: 29vw
 }
 
 .hex-alt >.hexagon-content > h2 {
-    margin-left: 45vw
+    margin-left: 45vw;
 }
 
 .hex-alt > .hexagon-content {
@@ -393,8 +414,32 @@ img.hex-img {
     flex-flow: row wrap;
 }
 
+.rectanglish h2 {
+    margin-left: 29vw;
+    margin-top: 3vh;
+}
 
-
-.rectanglish h2, .rectanglish p {
+.rectanglish p {
+    margin-bottom: 3vh;
     margin-left: 30vw;
+}
+
+.rectanglish p:first-of-type {
+    margin-top: 3vh
+}
+
+.rectanglish p:nth-of-type(2) {
+    margin-left: 32vw
+}
+
+.rectanglish p:last-of-type {
+    margin-left: 34vw
+}
+
+div
+
+.list > ul {
+    display: flex;
+    flex-flow: column wrap;
+    border: none;
 }
