@@ -382,8 +382,18 @@ img.hex-img {
     margin-top: -0.3vh
 }
 
-.rectanglish h2, .rectanglish p {
+.rectanglish h2 {
+    margin-left: 29vw;
+    margin-top: 3vh;
+}
+
+.rectanglish p {
+    margin-bottom: 3vh;
     margin-left: 30vw;
+}
+
+.rectanglish p:first-of-type {
+    margin-top: 3vh
 }
 
 .rectanglish p:nth-of-type(2) {
