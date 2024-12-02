@@ -193,13 +193,13 @@ ul li ul li {
     margin-top: -.5vh
 }
 
-
 .hex {
     display: flex;
     height: 20vh;
     width: 70%;
     flex-flow: row wrap;
-    margin-top: 10vh
+    margin-top: 10vh;
+    margin-left: 1vw;
 }
 
 .hex-alt {
@@ -209,11 +209,11 @@ ul li ul li {
     flex-flow: row wrap;
     margin-top: 10vh;
     justify-content: flex-end;
-    margin-left: 23vw
+    margin-left: 29vw
 }
 
 .hex-alt >.hexagon-content > h2 {
-    margin-left: 45vw
+    margin-left: 45vw;
 }
 
 .hex-alt > .hexagon-content {
@@ -382,8 +382,14 @@ img.hex-img {
     margin-top: -0.3vh
 }
 
-
-
 .rectanglish h2, .rectanglish p {
     margin-left: 30vw;
+}
+
+.rectanglish p:nth-of-type(2) {
+    margin-left: 32vw
+}
+
+.rectanglish p:last-of-type {
+    margin-left: 34vw
 }
