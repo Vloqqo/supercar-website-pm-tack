@@ -14,6 +14,8 @@
     src: url(/fonts/semibold.woff2) format("woff2");
 }
 
+
+
 body {
     background-color: black;
     margin: 0;
@@ -69,10 +71,47 @@ ul.dropdown li {
     z-index: 1;
 }
 
+.open-button {
+    background-color: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+.popup-container {
+    max-width: 20vw;
+    padding: 2rem;
+    background-color: #232323;
+}
+
+.popup-container .btn {
+    background-color: none;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 0.2rem;
+}
+
+.popup-container .cancel {
+    background-color: none;
+}
+
+.form
+
 li {
     width: 4rem;
     color: #fff;
-    background: black;
     display: block;
     float: left;
     padding: 1rem;
@@ -115,7 +154,6 @@ li a {
 
 li:hover,
 li:focus-within {
-    background: #B62431;
     cursor: pointer;
 }
 

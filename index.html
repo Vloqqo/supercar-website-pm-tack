@@ -34,8 +34,26 @@
             <li class="right1 png"><a href="#"><img src="/images/cart.png" alt="Barebones logo of Trion" class="right"></a></li>
             <li class="right2 png2"><a href="/other-pages/account-page.html"><img src="/images/account.png" alt="Barebones logo of Trion" class="right"></a></li>
         </ul>
-        <a href="#"><img class="accessibility" src="/images/accessibility.png" alt="image to take you to accessibility options"></a>
     </nav>
+    <button class="open-button accessibility" onclick="openForm()"><img src="/images/accessibility.png" alt="image to take you to accessibility options"></button>
+    <section class="popup" id="accessibility-popup">
+        <form action="/action_page.php" class="popup-container">
+            <h2>Accessibility</h2>
+            <ul>
+                <li class="little-li2"><a class="nav" href="#">Languages</a>
+                    <ul class="dropdown">
+                        <li class="big-li"><a class="nav" href="#">English</a></li>
+                        <li class="big-li"><a class="nav" href="#">Italian</a></li>
+                        <li class="big-li"><a class="nav" href="#">Mandarin</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <button>ADHD Freindly</button>
+            <button>Seizure Prevention</button>
+            <label>Text Size</label>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+    </section>
     <section class="hero">
         <figure class="cars">
             <img class="orange" alt="Image of orange Trion car" src="/images/orangecar.png">
