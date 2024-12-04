@@ -107,12 +107,11 @@ ul.dropdown li {
     background-color: none;
 }
 
-.form
-
 li {
     width: 4rem;
     color: #fff;
     display: block;
+    background-color: black;
     float: left;
     padding: 1rem;
     position: relative;

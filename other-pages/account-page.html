@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trion Supercars</title>
     <link rel="stylesheet" href="/style.css">
+    <script src="/script.js"></script>
 </head>
 <body>
     <nav>
@@ -33,16 +34,24 @@
             <li class="right1 png"><a href="#"><img src="/images/cart.png" alt="Barebones logo of Trion" class="right"></a></li>
             <li class="right2 png2"><a href="/other-pages/account-page.html"><img src="/images/account.png" alt="Barebones logo of Trion" class="right"></a></li>
         </ul>
-        <ul>
-        <li><a href="#"><img class="accessibility" src="/images/accessibility.png" alt="image to take you to accessibility options"></a>
-            <ul class="accessibility-content dropdown">
-                <li class="big-li"><a class="nav" href="#">Language</a></li>
-                <li class="big-li"><a class="nav" href="#">Seizure Prevention</a></li>
-                <li class="big-li"><a class="nav" href="#">ADHD Friendly</a></li>
-                <li class="big-li"><a class="nav" href="#">Text Size</a></li>
-            </ul>
-        </li>
-        </ul>
+        <section class="popup" id="accessibility-popup">
+            <form action="/action_page.php" class="popup-container">
+                <h2>Accessibility</h2>
+                <ul>
+                    <li class="little-li2"><a class="nav" href="#">Languages</a>
+                        <ul class="dropdown">
+                            <li class="big-li"><a class="nav" href="#">English</a></li>
+                            <li class="big-li"><a class="nav" href="#">Italian</a></li>
+                            <li class="big-li"><a class="nav" href="#">Mandarin</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <button>ADHD Freindly</button>
+                <button>Seizure Prevention</button>
+                <label>Text Size</label>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </section>
     </nav>
     <section class="account-big">
         <img src="/images/account-big.png" alt="Profile Picture">
