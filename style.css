@@ -14,6 +14,10 @@
     src: url(/fonts/semibold.woff2) format("woff2");
 }
 
+* {
+    box-sizing: border-box;
+    font: url(/fonts/regular.woff2)
+}
 
 
 body {
@@ -69,16 +73,26 @@ ul.dropdown li {
     bottom: 1vh;
     right: .5vw;
     z-index: 1;
+    background-color: none;
+}
+
+.popup .popup-container h2 {
+    text-decoration: underline;
 }
 
 .open-button {
-    background-color: none;
+    background-color: rgba(0, 0, 0, 0);
     color: white;
     border: none;
     cursor: pointer;
 }
 
 .popup {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: black;
+    color: white;
+    height: 100vh;
     display: none;
     position: fixed;
     bottom: 0;
@@ -87,10 +101,17 @@ ul.dropdown li {
     z-index: 9;
 }
 
+.popup-container button, label {
+    margin-top: 3rem;
+}
+
 .popup-container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
     max-width: 20vw;
-    padding: 2rem;
-    background-color: #232323;
+    padding: 5rem;
+    background-color: black;
 }
 
 .popup-container .btn {
@@ -105,6 +126,78 @@ ul.dropdown li {
 
 .popup-container .cancel {
     background-color: none;
+}
+
+.abtn {
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.labtn {
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.popup-container .cancel {
+    display: inline-block;
+    color: white;
+    background-color: #B62431;
+}
+
+.popup-container label {
+    font-size: 20px;
+}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    font-weight: 400;
+}
+
+.clickdrop {
+    display: inline-block;
+}
+
+.clickdrop-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: black;
+    z-index: 1;
+    max-height: 20rem;
+    overflow-y: scroll;
+    border: #B62431 solid 1px;
+    width: 10vw;
+    padding: 0;
+}
+
+.clickdrop-content::-webkit-scrollbar {
+    display: none;
+}
+
+.clickdrop-content .labtn{
+    display: block;
+}
+
+.show {
+    display: block;
 }
 
 li {
@@ -316,10 +409,6 @@ textarea::placeholder {
 img.orange {
     transform: scaleX(-1);
     margin-bottom: 6vh;
-}
-
-* {
-    box-sizing: border-box;
 }
 
 .carousel {

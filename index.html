@@ -37,20 +37,26 @@
     </nav>
     <button class="open-button accessibility" onclick="openForm()"><img src="/images/accessibility.png" alt="image to take you to accessibility options"></button>
     <section class="popup" id="accessibility-popup">
-        <form action="/action_page.php" class="popup-container">
-            <h2>Accessibility</h2>
-            <ul>
-                <li class="little-li2"><a class="nav" href="#">Languages</a>
-                    <ul class="dropdown">
-                        <li class="big-li"><a class="nav" href="#">English</a></li>
-                        <li class="big-li"><a class="nav" href="#">Italian</a></li>
-                        <li class="big-li"><a class="nav" href="#">Mandarin</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <button>ADHD Freindly</button>
-            <button>Seizure Prevention</button>
-            <label>Text Size</label>
+        <form class="popup-container">
+            <h2>Accessibility Settings</h2>
+                <div class="clickdrop">
+                    <button type="button" onclick="myFunction()" class="dropbtn"><strong>Languages</strong></button>
+                    <div id="myClickdrop" class="clickdrop-content">
+                        <button type="button" class="labtn">English</button>
+                        <button type="button" class="labtn">中国人</button>
+                        <button type="button" class="labtn">Español</button>
+                        <button type="button" class="labtn">日本語</button>
+                        <button type="button" class="labtn">Русский</button>
+                        <button type="button" class="labtn">Deutsch</button>
+                        <button type="button" class="labtn">Français</button>
+                        <button type="button" class="labtn">عربي</button>
+                        <button type="button" class="labtn">Italiano</button>
+                    </div>
+                </div>
+            <button class="abtn" type="button"><strong>ADHD Freindly</strong></button>
+            <button class="abtn" type="button"><strong>Seizure Prevention</strong></button>
+            <button class="abtn" type="button"><strong>High Contrast</strong></button>
+            <label><strong>Text Size</strong></label>
             <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
         </form>
     </section>

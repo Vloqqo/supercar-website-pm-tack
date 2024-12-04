@@ -34,3 +34,32 @@ function openForm() {
 function closeForm() {
   document.getElementById("accessibility-popup").style.display = "none";
 }
+
+let lang = window.navigator.languages ? window.navigator.languages[0] : null;
+    lang = lang || window.navigator.language || window.navigator.browserLanguage || window.navigator.userLanguage;
+
+let shortLang = lang;
+if (shortLang.indexOf('-') !== -1)
+    shortLang = shortLang.split('-')[0];
+
+if (shortLang.indexOf('_') !== -1)
+    shortLang = shortLang.split('_')[0];
+
+console.log(lang, shortLang);
+
+function myFunction() {
+  document.getElementById("myClickdrop").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("clickdrop-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
