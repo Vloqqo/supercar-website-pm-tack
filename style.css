@@ -19,6 +19,9 @@
     font: url(/fonts/regular.woff2)
 }
 
+h2, p {
+    color: white;
+}
 
 body {
     background-color: black;
@@ -532,7 +535,6 @@ img.hex-img {
     margin-left: 19.8vw;
     margin-top: -0.3vh;
 }
-
 .car-description {
     border-bottom: #B62431 solid;
     border-width: 100%;
@@ -562,10 +564,60 @@ img.hex-img {
     margin-left: 34vw
 }
 
-div
+div.account-line {
+    border: 1px solid white
+}
 
-.list > ul {
-    display: flex;
+ul.list {
     flex-flow: column wrap;
     border: none;
+    color: white;
+    width: 10vw;
+    border-right: 1px solid white;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+ul.list li {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    border-bottom: 1px solid white;
+    width: auto;
+}
+
+.account-big {
+    color:white;
+    display: flex;
+}
+
+.account-big-c {
+    align-content: center;
+    margin-left: 20vw;
+    justify-items: center;
+}
+
+.account-big-c h2 {
+    font-size: 48px
+}
+
+.account-big-c p {
+    width: 5rem
+}
+
+.account-pic {
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+}
+
+section.settings {
+    display: flex;
+}
+
+h2.test {
+    height: 2vh;
+    margin-left: 1vw
+}
+
+p.test {
+    margin-top: 10vh;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,12 @@
     <link rel="stylesheet" href="/style.css">
     <script src="/script.js"></script>
 </head>
+
 <body>
     <nav>
         <ul class="header">
-            <li class="home png"><a href="/index.html"><img src="/images/trion.png" alt="Barebones logo of Trion"></a></li>
+            <li class="home png"><a href="/index.html"><img src="/images/trion.png" alt="Barebones logo of Trion"></a>
+            </li>
             <li class="little-li2"><a class="nav" href="#">Models</a>
                 <ul class="dropdown">
                     <li class="big-li"><a class="nav" href="#">Nemesis</a></li>
@@ -31,8 +34,10 @@
                 </ul>
             </li>
             <li class="little-li2"><a class="nav" href="#">About</a></li>
-            <li class="right1 png"><a href="#"><img src="/images/cart.png" alt="Barebones logo of Trion" class="right"></a></li>
-            <li class="right2 png2"><a href="/other-pages/account-page.html"><img src="/images/account.png" alt="Barebones logo of Trion" class="right"></a></li>
+            <li class="right1 png"><a href="#"><img src="/images/cart.png" alt="Barebones logo of Trion"
+                        class="right"></a></li>
+            <li class="right2 png2"><a href="/other-pages/account-page.html"><img src="/images/account.png"
+                        alt="Barebones logo of Trion" class="right"></a></li>
         </ul>
         <section class="popup" id="accessibility-popup">
             <form action="/action_page.php" class="popup-container">
@@ -48,18 +53,40 @@
         </section>
     </nav>
     <section class="account-big">
-        <img src="/images/account-big.png" alt="Profile Picture">
-        <h2>Your Account Page</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+        <img class="account-pic" src="/images/account-big.png" alt="Profile Picture">
+        <section class="account-big-c">
+            <h2>Your Account</h2>
+            <p>Hello Blank!</p>
+        </section>
     </section>
-    <div class="account"></div>
-    <section class="list">
-        <ul>
-            <li>Settings</li>
-            <li>Concierge</li>
-            <li>Order History</li>
-            <li>Saved Car Config</li>
+    <div class="account-line"></div>
+    <section class="settings">
+        <ul class="list">
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Concierge</a></li>
+            <li><a href="#">Order History</a></li>
+            <li><a href="#">Saved Car Config</a></li>
         </ul>
+        <h2 class="test">Account Settings</h2>
+        <p class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae quod ipsum illo
+            exercitationem quos aliquam deleniti commodi quidem excepturi? Culpa.</p>
     </section>
+    <footer class="footer account">
+        <p><a href="#"><strong>About Us</strong></a></p>
+        <p>© Copyright of Trion Supercars 2025</p>
+        <section class="contact">
+            <h3>Contact Us</h3>
+            <form>
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+            </form>
+            <form>
+                <input type="email" placeholder="Email" required>
+                <input type="number" placeholder="Phone Number">
+            </form>
+            <textarea id="message" name="cmessage" placeholder="Message" required></textarea>
+        </section>
+    </footer>
 </body>
+
 </html>
