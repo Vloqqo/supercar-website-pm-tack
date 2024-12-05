@@ -16,11 +16,13 @@
 
 * {
     box-sizing: border-box;
-    font: url(/fonts/regular.woff2)
+    font: url(/fonts/regular.woff2);
+    color: white;
 }
 
-h2, p {
-    color: white;
+h1 {
+    text-align: center;
+    margin-top: 5rem;
 }
 
 body {
@@ -140,6 +142,10 @@ ul.dropdown li {
     cursor: pointer;
 }
 
+.abtn:hover {
+    color: #717171;
+}
+
 .labtn {
     font-size: 20px;
     color: black;
@@ -147,6 +153,10 @@ ul.dropdown li {
     border: none;
     padding: 0;
     cursor: pointer;
+}
+
+.labtn:hover {
+    color: #717171;
 }
 
 .popup-container .cancel {
@@ -168,6 +178,10 @@ ul.dropdown li {
     cursor: pointer;
     padding-left: 0;
     padding-bottom: 0;
+}
+
+.dropbtn:hover {
+    color: #717171;
 }
 
 .dropbtn:hover, .dropbtn:focus {
@@ -399,7 +413,6 @@ input, textarea {
     background-color:rgb(255, 255, 255, 0.3);
     border: none;
     border-radius: .2rem;
-    font-family: "rehular" ;
     color: white;
 }
 
@@ -619,6 +632,7 @@ h2.test {
 
 p.test {
     margin-top: 10vh;
+<<<<<<< Updated upstream
     height: 2vh;
 }
 
@@ -731,4 +745,76 @@ img.models {
 img.color {
     width: 2vw;
     height: 2.5vh
+=======
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    color: white;
+}
+
+.login-container {
+    display: inline-flex;
+    flex-flow: column;
+    margin-left: 33%;
+    border: #B62431 solid 2px;
+    margin-top: 3rem;
+    padding: 10rem;
+}
+
+.login form {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.login form > input {
+    margin: 2rem;
+    padding: 0.5rem;
+    width: 20rem;
+}
+
+.login form > input, textarea {
+    color: black;
+}
+
+.login form > a {
+    padding: 0.5rem;
+    margin: 2rem;
+    width: 20rem;
+    color: black;
+    background-color: #fff;
+    text-align: center;
+}
+
+.login form > section {
+    margin-left: 2rem; 
+}
+
+.login form input {
+    background-color: white;
+    border-radius: 0;
+}
+
+.login form > input::placeholder {
+    color: black;
+}
+
+.login form input {
+    background-color: white;
+    border-radius: 0;
+}
+
+.chero {
+    display: flex;
+    flex-flow: column;
+    background-image: url(/images/blackcar.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 55vh;
+    background-color: #1F1A27;
+    border-bottom: #B62431 solid;
+>>>>>>> Stashed changes
 }

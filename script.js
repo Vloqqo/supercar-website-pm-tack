@@ -63,3 +63,17 @@ window.onclick = function(event) {
     }
   }
 }
+
+let cont = document.getElementById("text-container");
+function changeSizeByBtn(size) {
+  cont.style.fontSize = size;
+}
+
+function myFunction() {
+  var x = document.getElementById("Password");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
