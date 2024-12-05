@@ -680,21 +680,55 @@ img.models {
     margin-left: 20vw
 }
 
+
+
 .cpage {
-    text-align: center;
     border-bottom: 1px solid white;
-    width:fit-content
+    width:fit-content;
+    display: flex;
+    justify-self: center;
 }
 
 .customizing-content {
     display: flex;
+    background-color: rgb(65, 65, 65);
+    padding: 1rem;
+    width: 30vw;
+    height: 50vh;
+    border-radius: .8rem;
+}
+.customizing {
+    display: flex;
+}
+
+.customizing h2 {
+    margin-right: 25rem;
+    margin-left: 1rem;
 }
 
 .customizing-content > ul {
     flex-flow: column wrap;
-    width:max-content;
+    width: max-content;
     justify-items: flex-start;
     margin: 0;
+    padding-right: 2rem;
     border-right: solid white 1px;
-    border-bottom: none
+    border-bottom: none;
+    background-color: rgb(65, 65, 65);
+}
+
+.customizing-content > ul > li {
+    background-color: rgb(65, 65, 65);
+}
+
+.selection > h2 {
+    height:fit-content;
+    width: 24vw;
+    text-align: center;
+    border-bottom: solid white 1px;
+}
+
+img.color {
+    width: 2vw;
+    height: 2.5vh
 }
