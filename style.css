@@ -645,7 +645,7 @@ input.account::placeholder {
     color: rgba(255, 255, 255, 0.2)
 }
 
-button {
+button.save {
     height: 3vh;
     width: 5vw;
     margin-top: 5vh;

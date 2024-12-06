@@ -11,7 +11,7 @@
     <script src="/script.js"></script>
 </head>
 
-<body id="text-container" class="text-container">
+<body>
     <nav>
         <ul class="header">
             <li class="home png"><a href="#"><img src="/images/trion.png" alt="Barebones logo of Trion"></a></li>
@@ -37,7 +37,7 @@
             <li class="little-li2"><a class="nav" href="#">About</a></li>
             <li class="right1 png"><a href="#"><img src="/images/cart.png" alt="Barebones logo of Trion"
                         class="right"></a></li>
-            <li class="right2 png2"><a href="/account-pages/account-page.html"><img src="/images/account.png"
+            <li class="right2 png2"><a href="/other-pages/account-page.html"><img src="/images/account.png"
                         alt="Barebones logo of Trion" class="right"></a></li>
         </ul>
     </nav>
@@ -63,12 +63,8 @@
             <button class="abtn" type="button"><strong>ADHD Freindly</strong></button>
             <button class="abtn" type="button"><strong>Seizure Prevention</strong></button>
             <button class="abtn" type="button"><strong>High Contrast</strong></button>
-            <section>
-                <label><strong>Text Size</strong></label> 
-                <button type="button" class="tbtn" id="sizeUp" onclick="changeSizeByBtn('-5px')"><strong>+</strong></button>
-                <button type="button" class="tbtn" id="sizeDown" onclick="changeSizeByBtn('5px')"><strong>-</strong></button>
-            </section>
-                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            <label><strong>Text Size</strong></label>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
         </form>
     </section>
     <section class="hero">
@@ -108,18 +104,17 @@
             </section>
         </section>
     </section>
-    <section class="main" id="maininfo">
-        <section class="hexagon">
-            <section class="hex">
-                <img class="hex-img" src="/images/engine.png" alt="Image of powerful engine from one of our cars">
-                <article class="hexagon-content">
-                    <h2>Engine</h2>
-                    <p>The engine is a state of the art 552 cubis inch, quad-cam V8 capable of an output of 2,000 horse
-                        power and running on both .</p>
-                    <p>TRION's engine will guarantee a rich supercar experience like no other.</p>
-                </article>
-            </section>
-            <!-- images and text from this point on are placeholder will eventually use different text/images-->
+    <section class="hexagon">
+        <section class="hex">
+            <img class="hex-img" src="/images/engine.png" alt="Image of powerful engine from one of our cars">
+            <article class="hexagon-content">
+                <h2>Engine</h2>
+                <p>The engine is a state of the art 552 cubis inch, quad-cam V8 capable of an output of 2,000 horse
+                    power and running on both .</p>
+                <p>TRION's engine will guarantee a rich supercar experience like no other.</p>
+            </article>
+        </section>
+        <!-- images and text from this point on are placeholder will eventually use different text/images-->
         <section class="hexagon">
             <section class="hex-alt">
                 <article class="hexagon-content">
@@ -130,35 +125,32 @@
                 </article>
                 <img class="hex-img" src="/images/engine.png" alt="Image of powerful engine from one of our cars">
             </section>
-        </section>
-        <section class="hexagon">
-            <section class="hex">
-                <img class="hex-img" src="/images/engine.png" alt="Image of powerful engine from one of our cars">
-                <article class="hexagon-content">
-                    <h2>Engine</h2>
-                    <p>The engine is a state of the art 552 cubis inch, quad-cam V8 capable of an output of 2,000
-                        horse power and running on both .</p>
-                    <p>TRION's engine will guarantee a rich supercar experience like no other.</p>
-                </article>
-            </section>
-        </section>
-    </section>
-    <footer class="footer">
-        <p><a href="#"><strong>About Us</strong></a></p>
-        <p>© Copyright of Trion Supercars 2025</p>
-        <section class="contact">
-            <h3>Contact Us</h3>
-            <form>
-                <input type="text" placeholder="First Name">
-                <input type="text" placeholder="Last Name">
-            </form>
-            <form>
-                <input type="email" placeholder="Email" required>
-                <input type="number" placeholder="Phone Number">
-            </form>
-            <textarea id="message" name="cmessage" placeholder="Message" required></textarea>
-        </section>
-    </footer>
+            <section class="hexagon">
+                <section class="hex">
+                    <img class="hex-img" src="/images/engine.png" alt="Image of powerful engine from one of our cars">
+                    <article class="hexagon-content">
+                        <h2>Engine</h2>
+                        <p>The engine is a state of the art 552 cubis inch, quad-cam V8 capable of an output of 2,000
+                            horse power and running on both .</p>
+                        <p>TRION's engine will guarantee a rich supercar experience like no other.</p>
+                    </article>
+                </section>
+                <footer class="footer">
+                    <p><a href="#"><strong>About Us</strong></a></p>
+                    <p>© Copyright of Trion Supercars 2025</p>
+                    <section class="contact">
+                        <h3>Contact Us</h3>
+                        <form>
+                            <input type="text" placeholder="First Name">
+                            <input type="text" placeholder="Last Name">
+                        </form>
+                        <form>
+                            <input type="email" placeholder="Email" required>
+                            <input type="number" placeholder="Phone Number">
+                        </form>
+                        <textarea id="message" name="cmessage" placeholder="Message" required></textarea>
+                    </section>
+                </footer>
 </body>
 
 </html>
