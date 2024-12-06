@@ -632,7 +632,6 @@ h2.test {
 
 p.test {
     margin-top: 10vh;
-<<<<<<< Updated upstream
     height: 2vh;
 }
 
@@ -745,7 +744,6 @@ img.models {
 img.color {
     width: 2vw;
     height: 2.5vh
-=======
 }
 
 .login {
@@ -816,5 +814,4 @@ img.color {
     height: 55vh;
     background-color: #1F1A27;
     border-bottom: #B62431 solid;
->>>>>>> Stashed changes
 }
