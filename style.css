@@ -722,16 +722,20 @@ img.models {
 .customizing-content > ul {
     flex-flow: column wrap;
     width: max-content;
-    justify-items: flex-start;
+    justify-content: none;
     margin: 0;
     padding-right: 2rem;
     border-right: solid white 1px;
     border-bottom: none;
     background-color: rgb(65, 65, 65);
+    overflow-x: hidden;
+    max-height: 46.862vh;
 }
 
-.customizing-content > ul > li {
+.customizing-content > ul.hidden > li {
     background-color: rgb(65, 65, 65);
+    margin: 0;
+    padding-bottom: 1rem;
 }
 
 .selection > h2 {
