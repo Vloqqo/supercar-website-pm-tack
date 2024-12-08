@@ -427,10 +427,12 @@ img.orange {
     margin-bottom: 6vh;
 }
 
+
 .carousel {
     width: 30vw;
     position: absolute;
     margin: 2vw auto auto;
+    margin-top: 0;
 }
 
 .slideshow-container {
@@ -529,7 +531,7 @@ img.black {
 }
 
 img.hex-img {
-    height: 17.1vh;
+    height: 100%;
 }
 
 .rectanglish {
@@ -585,7 +587,7 @@ ul.list {
     flex-flow: column wrap;
     border: none;
     color: white;
-    width: 7vw;
+    width: 9rem;
     border-right: 1px solid white;
     margin-left: 0;
     margin-right: 0;
@@ -671,7 +673,6 @@ img.models {
         margin-top: 1vh;
 }
 
-
 .rectanglish-alt h2 {
     margin-left: 50vw
 }
@@ -719,12 +720,13 @@ img.models {
     margin-left: 1rem;
 }
 
+
 .customizing-content > ul {
     flex-flow: column wrap;
     width: max-content;
     justify-content: none;
     margin: 0;
-    padding-right: 2rem;
+    padding-right: 1.5rem;
     border-right: solid white 1px;
     border-bottom: none;
     background-color: rgb(65, 65, 65);
@@ -736,11 +738,18 @@ img.models {
     background-color: rgb(65, 65, 65);
     margin: 0;
     padding-bottom: 1rem;
+    width: max-content;
 }
 
-.selection > h2 {
+.selection1 {
+    justify-content: center;
+    width: 100%;
+    margin-left: 1vw
+}
+
+.selection1 > h2 {
     height:fit-content;
-    width: 24vw;
+    width: 100%;
     text-align: center;
     border-bottom: solid white 1px;
 }
@@ -847,4 +856,26 @@ img.color {
 
 .cimg, .ocar-content {
     height: 35vh;
+}
+
+.all-customization {
+    display: flex;
+    justify-content: space-around;
+}
+
+button.choose-customize {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.move-rectanglish {
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+
+.move-rectanglish2 {
+    margin-bottom: 5vh;
 }

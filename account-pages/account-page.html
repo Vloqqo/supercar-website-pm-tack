@@ -14,7 +14,7 @@
         <ul class="header">
             <li class="home png"><a href="/index.html"><img src="/images/trion.png" alt="Barebones logo of Trion"></a>
             </li>
-            <li class="little-li2"><a class="nav" href="#">Models</a>
+            <li class="little-li2"><a class="nav" href="/customization-pages/models.html">Models</a>
                 <ul class="dropdown">
                     <li class="big-li"><a class="nav" href="#">Nemesis</a></li>
                     <li class="big-li"><a class="nav" href="#">Black Widow</a></li>
@@ -24,7 +24,7 @@
                 <ul class="dropdown">
                     <li class="big-li"><a class="nav" href="#">Body</a></li>
                     <li class="big-li"><a class="nav" href="#">Engine</a></li>
-                    <li class="big-li"><a class="nav" href="#">Schedule</a></li>
+                    <li class="big-li"><a class="nav" href="/maintainence-pages/login.html">Schedule</a></li>
                 </ul>
             </li>
             <li class="little-li"><a class="nav" href="#">Store</a>
@@ -34,24 +34,38 @@
                 </ul>
             </li>
             <li class="little-li2"><a class="nav" href="#">About</a></li>
-            <li class="right1 png"><a href="#"><img src="/images/cart.png" alt="Barebones logo of Trion"
-                        class="right"></a></li>
-            <li class="right2 png2"><a href="/other-pages/account-page.html"><img src="/images/account.png"
+            <li class="right1 png"><a href="/other-pages/cart.html"><img src="/images/cart.png"
+                        alt="Barebones logo of Trion" class="right"></a></li>
+            <li class="right2 png2"><a href="/account-pages/account-page.html"><img src="/images/account.png"
                         alt="Barebones logo of Trion" class="right"></a></li>
         </ul>
-        <section class="popup" id="accessibility-popup">
-            <form action="/action_page.php" class="popup-container">
-                <h2>Accessibility</h2>
-                <section class="popup" id="accessibility-popup">
-                    
-                </section>
-                <button>ADHD Freindly</button>
-                <button>Seizure Prevention</button>
-                <label>Text Size</label>
-                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-            </form>
-        </section>
     </nav>
+    <button class="open-button accessibility" onclick="openForm()"><img src="/images/accessibility.png"
+            alt="image to take you to accessibility options"></button>
+    <section class="popup" id="accessibility-popup">
+        <form class="popup-container">
+            <h2>Accessibility Settings</h2>
+            <div class="clickdrop">
+                <button type="button" onclick="myFunction()" class="dropbtn"><strong>Languages</strong></button>
+                <div id="myClickdrop" class="clickdrop-content">
+                    <button type="button" class="labtn">English</button>
+                    <button type="button" class="labtn">中国人</button>
+                    <button type="button" class="labtn">Español</button>
+                    <button type="button" class="labtn">日本語</button>
+                    <button type="button" class="labtn">Русский</button>
+                    <button type="button" class="labtn">Deutsch</button>
+                    <button type="button" class="labtn">Français</button>
+                    <button type="button" class="labtn">عربي</button>
+                    <button type="button" class="labtn">Italiano</button>
+                </div>
+            </div>
+            <button class="abtn" type="button"><strong>ADHD Friendly</strong></button>
+            <button class="abtn" type="button"><strong>Seizure Prevention</strong></button>
+            <button class="abtn" type="button"><strong>High Contrast</strong></button>
+            <label><strong>Text Size</strong></label>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+    </section>
     <section class="account-big">
         <img class="account-pic" src="/images/account-big.png" alt="Profile Picture">
         <section class="account-big-c">
@@ -66,28 +80,28 @@
             <li><a href="#account">Concierge</a></li>
             <li><a href="#account">Order History</a></li>
             <li><a href="#account">Saved Car Config</a></li>
-        </ul>        
+        </ul>
         <h2 id="account" class="test">Account Settings</h2>
         <section class="options">
-        <section class="change">
-        <p class="test">Change Name: XXXX</p>
-        <input class="account" type="text" placeholder="New Name">
+            <section class="change">
+                <p class="test">Change Name: XXXX</p>
+                <input class="account" type="text" placeholder="New Name">
+            </section>
+            <section class="change">
+                <p class="test">Change Email Address:XXXX@gmail.com</p>
+                <input class="account" type="text" placeholder="New Email Address">
+            </section>
+            <section class="change">
+                <p class="test">Change Password</p>
+                <input class="account" type="text" placeholder="New Password">
+            </section>
+            <section class="change">
+                <p class="test">Phone Number: XXX-XXX-XXX</p>
+                <input class="account" type="text" placeholder="New Phone Number">
+            </section>
+            <button>Save</button>
+        </section>
     </section>
-    <section class="change">
-        <p class="test">Change Email Address:XXXX@gmail.com</p>
-        <input class="account" type="text" placeholder="New Email Address">
-    </section>
-    <section class="change">
-        <p class="test">Change Password</p>
-        <input class="account" type="text" placeholder="New Password">
-    </section>
-    <section class="change">
-        <p class="test">Phone Number: XXX-XXX-XXX</p>
-        <input class="account" type="text" placeholder="New Phone Number">
-    </section>
-    <button>Save</button>
-    </section>
-</section>
     <footer class="footer account">
         <p><a href="#"><strong>About Us</strong></a></p>
         <p>© Copyright of Trion Supercars 2025</p>
