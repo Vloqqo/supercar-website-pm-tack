@@ -20,6 +20,14 @@
     color: white;
 }
 
+:root {
+    --body-bg: linear-gradient(-135deg, #000000 0%, #000000 100%);
+    --concierge-bg: #ffffff;
+    --border: 2px solid #000000;
+    --left-concierge-bg: #ff0000;
+    --right-concierge-bg: #579ffb;
+  }
+
 h1 {
     text-align: center;
     margin-top: 5rem;
@@ -878,4 +886,152 @@ button.choose-customize {
 
 .move-rectanglish2 {
     margin-bottom: 5vh;
+}
+
+.concierge {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 80vw;
+    margin: 25px 10px;
+    height: calc(100% - 50px);
+    border: var(--border);
+    border-radius: 5px;
+    background: var(--body-bg);
+    box-shadow: 0 15px 15px -5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .concierge-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: var(--border);
+    background: #353535;
+    color: #666;
+  }
+  
+  .concierge-header-title > p {
+    margin: 0
+  }
+
+  .concierge-chat {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+  }
+  .concierge-chat::-webkit-scrollbar {
+    width: 6px;
+  }
+  .concierge-chat::-webkit-scrollbar-track {
+    background: #ddd;
+  }
+  .concierge-chat::-webkit-scrollbar-thumb {
+    background: #bdbdbd;
+  }
+  .concierge {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    width: 150vw;
+    height: 70vh;
+  }
+  .concierge:last-of-type {
+    margin: 0;
+  }
+  .concierge-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    background: #ddd;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+  }
+  .concierge-bubble {
+    max-width: 450px;
+    padding: 15px;
+    border-radius: 15px;
+    background: var(--left-concierge-bg);
+  }
+  .concierge-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .concierge-info-name {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  .concierge-info-time {
+    font-size: 0.85em;
+  }
+  
+  .left-concierge .concierge-bubble {
+    border-bottom-left-radius: 0;
+    align-self: flex-start;
+  }
+
+  .left-concierge {
+    height: 10vh;
+    display: flex;
+  }
+
+  .concierge img {
+    margin-left: -1vw;
+  }
+
+  .right-concierge {
+    height: 10vh
+  }
+  .right-concierge .concierge-bubble {
+    background: var(--right-concierge-bg);
+    color: #fff;
+    border-bottom-right-radius: 0;
+  }
+  .right-concierge .concierge-img {
+    margin: 0 0 0 10px;
+  }
+  
+  .concierge-inputarea {
+    display: flex;
+    padding: 10px;
+    border-top: var(--border);
+    background: #000000;
+  }
+  .concierge-inputarea * {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+  }
+  .concierge-input {
+    flex: 1;
+    background: #000000;
+  }
+  .concierge-send-btn {
+    margin-left: 10px;
+    background: rgb(0, 196, 65);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.23s;
+  }
+  .concierge-send-btn:hover {
+    background: rgb(0, 180, 50);
+  }
+  
+  .concierge-chat {
+    border: 1px white solid
+  }
+
+  .concierge-content {
+    width: 100%;
+    justify-items: center;
+  }
+
+.account-line {
+    border-top: 1px white solid
 }
