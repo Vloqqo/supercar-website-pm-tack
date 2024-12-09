@@ -21,7 +21,7 @@
                     <li class="big-li"><a class="nav" href="#">Black Widow</a></li>
                 </ul>
             </li>
-            <li><a class="nav fix" href="#">Maintainence</a>
+            <li><a class="nav fix" href="#">Maintenance</a>
                 <ul class="dropdown">
                     <li class="big-li"><a class="nav" href="#">Body</a></li>
                     <li class="big-li"><a class="nav" href="#">Engine</a></li>
@@ -70,48 +70,32 @@
     <section class="chero">
         <h1>Schedule An Appointment</h1>
     </section>
-    <section class="search">
-        <button onclick="myFunction()" class="searchbtn" placeholder="Search Location">
-        <section id="mySearch" class="search-content">
-            <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
-            <a href="#Los Vegas, Nevada">About</a>
-            <a href="#Los Angeles, California">Base</a>
-            <a href="#New York City, New York">Blog</a>
-            <a href="#Manhattan, New York">Contact</a>
+    <section class="schedule-container">
+        <section class="search">
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for location..">
+            <ul id="myUL">
+              <li><a href="#">Los Vegas, NV</a></li>
+              <li><a href="#">Los Angeles, CA</a></li>
+              <li><a href="#">Manhattan, NY</a></li>
+              <li><a href="#">New York City, NY</a></li>
+              <li><a href="#">Sacremento, CA</a></li>
+            </ul>
+            <input class="saddress" type="text" placeholder="Enter Address">
         </section>
+        <div class="calendar">
+            <div class="calendar-header">November 2024</div>
+            <div class="calendar-days">
+                <div>Sun</div>
+                <div>Mon</div>
+                <div>Tue</div>
+                <div>Wed</div>
+                <div>Thu</div>
+                <div>Fri</div>
+                <div>Sat</div>
+            </div>
+            <div class="calendar-dates">
+                <div></div> <div></div> <div></div> <div></div> <div></div> <div class="today">1</div> <div>2</div> <div>3</div> <div>4</div> <div>5</div> <div>6</div> <div>7</div> <div>8</div> <div>9</div> <div>10</div> <div>11</div> <div>12</div> <div>13</div> <div>14</div> <div>15</div> <div>16</div> <div>17</div> <div>18</div> <div>19</div><div>20</div> <div>21</div> <div>22</div> <div>23</div> <div>24</div> <div>25</div> <div>26</div><div>27</div> <div>28</div> <div>29</div> <div>30</div> 
     </section>
-    <div class="month">
-        <ul>
-          <li class="prev">&#10094;</li>
-          <li class="next">&#10095;</li>
-          <li>August<br><span style="font-size:18px">2021</span></li>
-        </ul>
-      </div>
-      
-      <ul class="weekdays">
-        <li>Mo</li>
-        <li>Tu</li>
-        <li>We</li>
-        <li>Th</li>
-        <li>Fr</li>
-        <li>Sa</li>
-        <li>Su</li>
-      </ul>
-      
-      <ul class="days">
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-        <li>4</li>
-        <li>5</li>
-        <li>6</li>
-        <li>7</li>
-        <li>8</li>
-        <li>9</li>
-        <li><span class="active">10</span></li>
-        <li>11</li>
-        ...etc
-      </ul>
     <footer class="footer">
         <p><a href="#"><strong>About Us</strong></a></p>
         <p>© Copyright of Trion Supercars 2025</p>
