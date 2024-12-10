@@ -1241,15 +1241,27 @@ section.order img {
     display: flex;
     flex-flow: row wrap;
     align-content: flex-start;
+    width: 100%;
 }
 
 section.config-imgli {
     display: flex;
+    justify-self: center;
+    border: white solid 1px;
 }
 
 ul.config {
     display: flex;
+    flex-flow: row wrap;
     align-self: flex-start;
+    width: 20vw;
+    margin: 0;
+    border-bottom: none;
+}
+
+ul.config li {
+    width:100%;
+    border-bottom: 1px solid white;
 }
 
 button.img {
@@ -1412,4 +1424,24 @@ a.car-checkout {
 
 .thank-you p {
     font-size: 15px;
+}
+
+section.config-content {
+    width: 100%
+}
+
+.config-content h2 {
+    text-align: center
+}
+
+.confirm-customization {
+    display:flex;
+    justify-content: flex-end;
+}
+
+.confirm-customization a {
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-right: 1vw;
+    margin-bottom: 1vh;
 }
