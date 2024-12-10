@@ -723,9 +723,12 @@ img.models {
     display: flex;
 }
 
-.customizing h2 {
-    margin-right: 25rem;
-    margin-left: 1rem;
+.customizing h2.ext {
+    margin-left: 4vw;
+}
+
+.customizing h2.int {
+    margin-left: 22vw;
 }
 
 
@@ -765,6 +768,11 @@ img.models {
 img.color {
     width: 2vw;
     height: 2.5vh
+}
+
+section.colors {
+    display: flex;
+    justify-content: center;
 }
 
 .login {
@@ -1036,6 +1044,64 @@ button.choose-customize {
     border-top: 1px white solid
 }
 
+.concierge-text > p {
+    margin: 0;
+}
+
+.concierge-info-name > h3, .concierge-info-time > h4 {
+    margin: 0;
+    padding: 0;
+}
+
+h2.history {
+    width: 100%;
+}
+
+section.history {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-self: flex-start;
+}
+
+section.orders {
+    display:flex;
+    flex-flow: column nowrap;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    height: 65vh;
+    width: 50vw;
+}
+
+section.order::-webkit-scrollbar {
+    display: none;
+}
+
+section.order {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 21vh;    
+    border: 1px solid white;
+}
+
+section.order h2 {
+    width: fit-content;
+    align-self: flex-start;
+}
+
+section.order-content {
+    height:100%;
+    width:100%;
+}
+
+section.order img {
+    height: 20vh;
+}
+
 .recommendation {
     Display: inline-block;
     border: #B62431 solid 2px;
@@ -1160,4 +1226,24 @@ button.choose-customize {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+}
+
+.saved-config-page {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+}
+
+section.config-imgli {
+    display: flex;
+}
+
+ul.config {
+    display: flex;
+    align-self: flex-start;
+}
+
+button.img {
+    background-color: transparent;
+    border: none;
 }
