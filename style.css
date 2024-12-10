@@ -1142,11 +1142,7 @@ section.order img {
     width: 450px;
     border: 1px solid #ddd;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-<<<<<<< Updated upstream
     height: 388px
-=======
-    height: 23rem
->>>>>>> Stashed changes
 }
 
 .calendar-header {
@@ -1444,4 +1440,27 @@ section.config-content {
     background-color: rgba(255, 255, 255, 0.2);
     margin-right: 1vw;
     margin-bottom: 1vh;
+}
+
+.cart {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+
+.cart-content {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+}
+
+.cart-content p {
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.cart-img {
+    height: 15rem;
+    width: 15rem;
+    padding-right: 2rem;
 }
