@@ -1136,16 +1136,15 @@ section.order img {
     padding: 1rem;
 }
 
-
-
-/* Calendar container */
 .calendar {
+    margin-top: 3rem;
+    margin-left: 3rem;
     width: 450px;
     border: 1px solid #ddd;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 388px
 }
 
-/* Calendar header styling */
 .calendar-header {
     text-align: center;
     background-color: #B62431;
@@ -1155,7 +1154,6 @@ section.order img {
     font-weight: bold;
 }
 
-/* Days of the week styling */
 .calendar-days {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -1169,7 +1167,6 @@ section.order img {
     font-weight: bold;
 }
 
-/* Date cells styling */
 .calendar-dates {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -1181,7 +1178,6 @@ section.order img {
     border: 1px solid #ddd;
 }
 
-/* Highlight today */
 .today {
     background-color: #ffdd57;
     font-weight: bold;
@@ -1202,7 +1198,7 @@ section.order img {
 }
 
 #myInput {
-    padding: 1rem 3rem 1rem 0;
+    padding: 1rem 25rem 1rem 0;
     border-radius: 0;
     border: #B62431 solid 2px;
 }
@@ -1210,22 +1206,31 @@ section.order img {
 .search {
     display: flex;
     flex-flow: column wrap;
-    max-width: 40%;
     padding: 5rem;
     border-radius: 0;
+    margin-top: -2.2rem;
+    margin-left: -10rem;
 }
 
 .saddress {
     padding: 1rem 3rem 1rem 0;
     border-radius: 0;
     border: #B62431 solid 2px;
-    margin-top: 1rem;
+    margin-top: 1.9rem;
 }
 
 .schedule-container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+.confirm {
+    display: inline-block;
+    font-size: 25px;
+    border: #B62431 solid 2px;
+    padding: 0.5rem;
+    margin: auto auto 1.5rem 118rem;
 }
 
 .saved-config-page {
@@ -1246,4 +1251,74 @@ ul.config {
 button.img {
     background-color: transparent;
     border: none;
+}
+
+.time {
+    background-color: black;
+    position: absolute;
+    display: inline-block;
+    border-radius: 2rem;
+    border: #B62431 solid 2px;
+    width: 30%;
+    height: 30%;
+    z-index: 1000;
+    margin-left: 36%;
+    margin-top: -5%;
+}
+
+.time h2 {
+    text-align: center;
+}
+
+.time-content {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.time-content p{
+    margin-top: 0rem;
+    margin-left: 43%;
+    margin-right: 40%;
+}
+
+.time-content p:nth-child(2) {
+    border-top: lightgrey solid 1px;
+    border-bottom: lightgrey solid 1px;
+    font-weight:  bold;
+}
+
+.time-content p:last-child,
+.time-content p:first-child {
+    color:#bbb;
+}
+
+.bground {
+    opacity: 50%;
+}
+
+.confirm-alt {
+    display: inline-block;
+    font-size: 15px;
+    border: #B62431 solid 2px;
+    padding: 0.5rem;
+    margin-left: 43%;
+}
+
+.thank-you {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.thank-you a {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.thank-you p {
+    font-size: 15px;
 }
