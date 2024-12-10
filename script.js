@@ -110,4 +110,11 @@ function myFunction() {
     }
   }
 }
+// Will be used for car color picker
+// let root = document.documentElement;
+// let carWrap = document.getElementById('car-wrap');
+// let colorPicker = document.getElementById('color-picker');
 
+// colorPicker.addEventListener('change', function(e){
+// 	root.style.setProperty('--car-color', this.value);
+// });
