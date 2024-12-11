@@ -772,7 +772,8 @@ img.color {
 
 section.colors {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
 }
 
 .login {
@@ -1467,4 +1468,23 @@ section.config-content {
 
 .white-pick {
     fill:white;
+}
+
+.color-pick {
+    height: 50px;
+    width: 50px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.colors2 {
+    display: flex;
+    margin-top: 10vh;
+    justify-content: space-around;
+    width: 100%
+}
+
+.color-pick:focus {
+    stroke:#000000;
+    stroke-width: 1vw
 }
