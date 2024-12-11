@@ -723,11 +723,11 @@ img.models {
     display: flex;
 }
 
-.customizing h2.ext {
-    margin-left: 4vw;
+.customizing a h2.ext {
+    margin-left: 5vw;
 }
 
-.customizing h2.int {
+.customizing a h2.int {
     margin-left: 22vw;
 }
 
@@ -1466,9 +1466,6 @@ section.config-content {
     padding-right: 2rem;
 }
 
-.white-pick {
-    fill:white;
-}
 
 .color-pick {
     height: 50px;
@@ -1484,7 +1481,47 @@ section.config-content {
     width: 100%
 }
 
-.color-pick:focus {
-    stroke:#000000;
-    stroke-width: 1vw
+.color-pick:hover {
+    stroke: #B62431;
+    stroke-width: 1%;
+}
+
+.black-pick {
+    background-color: black
+}
+
+.grey-pick {
+    background-color: grey
+}
+
+.blue-pick {
+    background-color: blue;
+}
+
+.silver-pick {
+    background-color: silver
+}
+
+.red-pick {
+    background-color: #B62431;
+}
+
+.gold-pick {
+    background-color: gold;
+}
+
+.beige-pick {
+    background-color: beige;
+}
+
+.green-pick {
+    background-color: green;
+}
+
+.yellow-pick {
+    background-color: yellow;
+}
+
+.colors {
+    margin-top: 5vh
 }
