@@ -1462,6 +1462,7 @@ section.config-content {
 
 .cart-img {
     height: 15rem;
+<<<<<<< Updated upstream
     width: 15rem;
     padding-right: 2rem;
 }
@@ -1524,4 +1525,65 @@ section.config-content {
 
 .colors {
     margin-top: 5vh
+=======
+    width: 13rem;
+    padding-right: 0rem;
+    border: #B62431 solid 4px;
+}
+
+.rec-merch {
+    display: inline-block;
+    border: #B62431 solid 3px;
+    width: 20%;
+    height: 55%;
+    margin-left: 70%;
+    position: fixed;
+    bottom: 30%;
+    border-radius: 2rem;
+}
+
+.rec-merch-flex {
+    display: flex;
+    flex-flow: column wrap;   
+}
+
+.order-now {
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    border: #B62431 solid 2px;
+    width: 10%;
+    padding: 0.5rem;
+    margin-left: 2.5rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.cart-img-alt {
+    height: 10rem;
+    width: 13rem;
+    margin: 1rem;
+    border: #B62431 solid;
+    border-radius: 1rem;
+}
+
+.rec-merch-flex a {
+    text-decoration: underline;
+    padding-left: 1rem;
+    font-size: 20px;
+}
+
+.rec-merch-flex a:last-child {
+    text-decoration: underline;
+    font-weight: bold;
+    padding-left: 1rem;
+    font-size: 20px;
+    padding-top: 1rem;
+}
+
+
+
+.rec-merch-flex h2 {
+    padding-left: 1rem;
+>>>>>>> Stashed changes
 }
