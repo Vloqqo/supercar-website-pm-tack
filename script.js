@@ -118,3 +118,4 @@ function myFunction() {
 // colorPicker.addEventListener('change', function(e){
 // 	root.style.setProperty('--car-color', this.value);
 // });
+

@@ -1464,3 +1464,7 @@ section.config-content {
     width: 15rem;
     padding-right: 2rem;
 }
+
+.white-pick {
+    fill:white;
+}
