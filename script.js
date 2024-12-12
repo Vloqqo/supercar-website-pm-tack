@@ -110,23 +110,3 @@ function myFunction() {
     }
   }
 }
-// Will be used for car color picker
-// let root = document.documentElement;
-// let carWrap = document.getElementById('car-wrap');
-// let colorPicker = document.getElementById('color-picker');
-
-// colorPicker.addEventListener('change', function(e){
-// 	root.style.setProperty('--car-color', this.value);
-// });
-
- // select the button and the div
- const button = document.getElementById('button-customize');
- const div = document.getElementById('selection1');
-
- // define the function to change the HTML content
- function changeContent() {
-   div.innerHTML = '<p>New HTML content!</p>';
- }
-
- // add event listener to the button
- button.addEventListener('click', changeContent);
