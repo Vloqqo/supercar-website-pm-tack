@@ -1632,3 +1632,40 @@ a.roof-pick {
 .secnd-rctngle {
     height:41vh
 }
+
+section.top-half-item-page {
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+
+section.item-info {
+    width: 50vw;
+    text-align: center;
+    border-left: 1px solid white;
+    display: flex;
+    flex-flow: column;
+}
+
+section.item-info p {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+section.buy-item {
+    display: flex;
+    flex-flow: column wrap;
+    width: 10vw;
+    align-self: center;
+    height: 10vh;
+    justify-content: space-around;
+    border: solid white 1px;
+}
+
+section.buy-item button {
+    background-color:rgb(65, 65, 65)
+}
+
+section.reccomendations-items h2 {
+    text-align: center;
+}
