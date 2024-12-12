@@ -774,6 +774,7 @@ section.colors {
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
+    border: none;
 }
 
 .login {
@@ -1275,7 +1276,17 @@ button.img {
 }
 
 .fillout-info-address {
-    width: 100%
+    width: 100%;
+}
+
+.fillout-info-rctngle {
+    height: 54vh
+}
+
+.fillout-info-rctngle h2 {
+    margin-bottom: 3vh;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid white;
 }
 
 .big-fillout {
@@ -1592,4 +1603,32 @@ section.config-content {
     height: 60vh;
     margin-top: 10vh;
     margin-bottom: 10vh;
+}
+
+a.mat-pick {
+  height: 5vh;
+  aspect-ratio: 1/cos(30deg);
+  clip-path: polygon(50% -50%,100% 50%,50% 150%,0 50%);
+  background-color: #bbb;
+}
+
+a.roof-pick {
+    height: 14vh;
+    width: 20vw;
+    background-color: #353535;
+}
+
+.menu-content:not(.active) {
+    display: none;
+}
+.menu-content.active {
+    display: block;
+}
+
+.taketwo {
+    height: 32vh
+}
+
+.secnd-rctngle {
+    height:41vh
 }
