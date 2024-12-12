@@ -826,7 +826,7 @@ section.colors {
 }
 
 .login form > input::placeholder {
-    color: black;
+    color: grey;
 }
 
 .login form input {
@@ -1524,7 +1524,7 @@ section.config-content {
 }
 
 .colors {
-    margin-top: 5vh
+    margin-top: 5vh;
     width: 13rem;
     padding-right: 0rem;
     border: #B62431 solid 4px;
@@ -1532,18 +1532,22 @@ section.config-content {
 
 .rec-merch {
     display: inline-block;
+    position: absolute;
     border: #B62431 solid 3px;
-    width: 20%;
+    width: 30%;
     height: 55%;
-    margin-left: 70%;
-    position: fixed;
-    bottom: 30%;
+    margin-left: 60%;
+    bottom: 20%;
     border-radius: 2rem;
 }
 
 .rec-merch-flex {
     display: flex;
     flex-flow: column wrap;   
+}
+
+.rec-merch-flex h2 {
+    text-align: center;
 }
 
 .order-now {
@@ -1592,4 +1596,177 @@ section.config-content {
     height: 60vh;
     margin-top: 10vh;
     margin-bottom: 10vh;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    color: white;
+}
+
+.cardinfo-container {
+    position: absolute;
+    display: inline-flex;
+    flex-flow: column;
+    margin-left: 33%;
+    background-color: black;
+    border: #B62431 solid 2px;
+    margin-top: 3rem;
+    padding: 10rem;
+    z-index: 100;
+    height: 70%;
+    width: 33%;
+}
+
+.cardinfo-container h1 {
+    margin-top: 0rem;
+}
+
+.cardinfo form {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.cardinfo form > input {
+    margin: 0rem;
+    padding: 0.5rem;
+    width: 20rem;
+}
+
+.cardinfo form > input, textarea {
+    color: black;
+}
+
+.cardinfo form > a {
+    padding: 0.5rem;
+    margin-top: 2rem;
+    width: 20rem;
+    color: black;
+    background-color: #fff;
+    text-align: center;
+}
+
+.cardinfo form > a:last-child {
+    color: lightgrey;
+    background-color: black;
+    text-decoration: underline;
+}
+
+.cardinfo form > section {
+    margin-left: 2rem; 
+}
+
+.cardinfo form input {
+    background-color: white;
+    border-radius: 0;
+}
+
+.cardinfo form > input::placeholder {
+    color: grey;
+}
+
+.cardinfo form input {
+    background-color: white;
+    border-radius: 0;
+}
+
+.rec-merch-alt {
+    display: inline-block;
+    position: absolute;
+    border: #B62431 solid 3px;
+    width: 30%;
+    height: 55%;
+    margin-left: 60%;
+    bottom: 20%;
+    border-radius: 2rem;
+}
+
+.thank-you-alt {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.thank-you-alt a {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.thank-you-alt p {
+    font-size: 15px;
+}
+
+.store-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.store-columnA,
+.store-columnB,
+.store-columnC {
+    display: flex;
+    flex-flow: column wrap;
+    
+}
+
+.store-columnA img {
+    width: 20rem;
+    height: 20rem;
+}
+
+.store-columnA {
+    width: 20rem;
+}
+
+.store-columnB img{
+    width: 15rem;
+    height: 20rem;
+}
+
+.store-columnB {
+    width: 15rem;
+}
+
+.store-columnC img {
+    width: 20rem;
+    height: 15rem;
+}
+
+.store-columnA p,
+.store-columnB p,
+.store-columnC p {
+    border: #B62431 solid 4px;
+    padding: 1rem;
+    margin: 0;
+}
+
+.store-columnA img,
+.store-columnB img,
+.store-columnC img {
+    border: #B62431 solid 4px;
+   
+}
+
+.store-columnC img:last-child {
+    width: 20rem;
+    height: 15rem;
+}
+
+.store-columnC {
+    width: 20rem;
+}
+
+.shero {
+    display: flex;
+    flex-flow: column;
+    background-image: url(/images/modelsbig.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 55vh;
+    background-color: #1F1A27;
+    border-bottom: #B62431 solid;
 }

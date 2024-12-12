@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trion Supercars</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js"></script>
+</head>
+<nav>
+    <ul class="header">
+        <li class="home png"><a href="/index.html"><img src="/images/trion.png" alt="Barebones logo of Trion"></a></li>
+        <li class="little-li2"><a class="nav" href="/customization-pages/models.html">Models</a>
+            <ul class="dropdown">
+                <li class="big-li"><a class="nav" href="#">Nemesis</a></li>
+                <li class="big-li"><a class="nav" href="#">Black Widow</a></li>
+            </ul>
+        </li>
+        <li><a class="nav fix" href="#">Maintainence</a>
+            <ul class="dropdown">
+                <li class="big-li"><a class="nav" href="#">Body</a></li>
+                <li class="big-li"><a class="nav" href="#">Engine</a></li>
+                <li class="big-li"><a class="nav" href="/maintainence-pages/login.html">Schedule</a></li>
+            </ul>
+        </li>
+        <li class="little-li"><a class="nav" href="#">Store</a>
+        </li>
+        <li class="little-li2"><a class="nav" href="#">About</a></li>
+        <li class="right1 png"><a href="/store-pages/cart.html"><img src="/images/cart.png"
+                    alt="Barebones logo of Trion" class="right"></a></li>
+        <li class="right2 png2"><a href="/account-pages/account-page.html"><img src="/images/account.png"
+                    alt="Barebones logo of Trion" class="right"></a></li>
+    </ul>
+</nav>
+<button class="open-button accessibility" onclick="openForm()"><img src="/images/accessibility.png"
+        alt="image to take you to accessibility options"></button>
+<section class="popup" id="accessibility-popup">
+    <form class="popup-container">
+        <h2>Accessibility Settings</h2>
+        <div class="clickdrop">
+            <button type="button" onclick="myFunction()" class="dropbtn"><strong>Languages</strong></button>
+            <div id="myClickdrop" class="clickdrop-content">
+                <button type="button" class="labtn">English</button>
+                <button type="button" class="labtn">中国人</button>
+                <button type="button" class="labtn">Español</button>
+                <button type="button" class="labtn">日本語</button>
+                <button type="button" class="labtn">Русский</button>
+                <button type="button" class="labtn">Deutsch</button>
+                <button type="button" class="labtn">Français</button>
+                <button type="button" class="labtn">عربي</button>
+                <button type="button" class="labtn">Italiano</button>
+            </div>
+        </div>
+        <button class="abtn" type="button"><strong>ADHD Friendly</strong></button>
+        <button class="abtn" type="button"><strong>Seizure Prevention</strong></button>
+        <button class="abtn" type="button"><strong>High Contrast</strong></button>
+        <label><strong>Text Size</strong></label>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
+</section>
+<section class="shero">
+</section>
+<h1>Merchandise</h1>
+<section class="store-container">
+    <section class="store-columnA">
+        <a href="#">
+            <figure>
+                <img src="/images/t shirt.png" alt="black TRION t-shirt">
+                <p>Black TRION t-shirt with TRION logo displayed over left chest; cotton fiber thirty-two degree athletic wear</p>
+            </figure>
+        </a>
+        <a href="#">   
+            <figure>
+                <img src="/images/hoodie TRION.png" alt="black TRION hoodie">
+                <p>Unisex black TRION hoodie with TRION logo displayed front center;
+                   cotton fiber; adjustable hood size 
+                </p>
+            </figure>
+        </a>
+    </section>
+    <section class="store-columnB">
+        <a href="#">
+            <figure>
+                <img src="/images/black backpack.png" alt="black TRION backpack">
+                <p>Unisex black TRION backpack with TRION logo displayed center no front; 
+                    adjustable strap size; water and fire resistant material</p>
+            </figure>
+        </a>
+        <a href="#">
+            <figure>
+                <img src="/images/black hat.png" alt="black TRION baseball cap">
+                <p>Unisex black TRION baseball cap with TRION logo displayed center;
+                    100% washed cotton soft cap adjustable size
+                </p>    
+            </figure>
+        </a>
+    </section>
+    <section class="store-columnC">
+        <a href="#">
+            <figure>
+                <img src="/images/yellow-1024x682.png" alt="yellow TRION Nemesis model">
+                <p>TRION model yellow Nemesis; 8 inches by 3 inches; polished pre-built</p>
+            </figure>
+        </a>
+        <a href="#">
+            <figure>
+                <img src="/images/orangecollectable.png" alt="orange TRION Nemesis model">
+                <p>TRION model orange Nemesis; 8 inches by 3 inches; polished pre-built</p>    
+            </figure>
+        </a>
+    </section>
+</section>
+<footer class="footer">
+    <p><a href="#"><strong>About Us</strong></a></p>
+    <p>© Copyright of Trion Supercars 2025</p>
+    <section class="contact">
+        <h3>Contact Us</h3>
+        <form>
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+        </form>
+        <form>
+            <input type="email" placeholder="Email" required>
+            <input type="number" placeholder="Phone Number">
+        </form>
+        <textarea id="message" name="cmessage" placeholder="Message" required></textarea>
+    </section>
+</footer>
+<body>
+
+</body>
+
+</html>
