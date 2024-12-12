@@ -774,6 +774,7 @@ section.colors {
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
+    border: none;
 }
 
 .login {
@@ -1275,7 +1276,17 @@ button.img {
 }
 
 .fillout-info-address {
-    width: 100%
+    width: 100%;
+}
+
+.fillout-info-rctngle {
+    height: 54vh
+}
+
+.fillout-info-rctngle h2 {
+    margin-bottom: 3vh;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid white;
 }
 
 .big-fillout {
@@ -1769,4 +1780,67 @@ section.config-content {
     height: 55vh;
     background-color: #1F1A27;
     border-bottom: #B62431 solid;
+a.mat-pick {
+  height: 5vh;
+  aspect-ratio: 1/cos(30deg);
+  clip-path: polygon(50% -50%,100% 50%,50% 150%,0 50%);
+  background-color: #bbb;
+}
+
+a.roof-pick {
+    height: 14vh;
+    width: 20vw;
+    background-color: #353535;
+}
+
+.menu-content:not(.active) {
+    display: none;
+}
+.menu-content.active {
+    display: block;
+}
+
+.taketwo {
+    height: 32vh
+}
+
+.secnd-rctngle {
+    height:41vh
+}
+
+section.top-half-item-page {
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+
+section.item-info {
+    width: 50vw;
+    text-align: center;
+    border-left: 1px solid white;
+    display: flex;
+    flex-flow: column;
+}
+
+section.item-info p {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+section.buy-item {
+    display: flex;
+    flex-flow: column wrap;
+    width: 10vw;
+    align-self: center;
+    height: 10vh;
+    justify-content: space-around;
+    border: solid white 1px;
+}
+
+section.buy-item button {
+    background-color:rgb(65, 65, 65)
+}
+
+section.reccomendations-items h2 {
+    text-align: center;
 }
