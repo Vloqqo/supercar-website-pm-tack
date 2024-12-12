@@ -64,14 +64,14 @@ window.onclick = function(event) {
   }
 }
 
-function showoptions() {
-  var x = document.getElementById("selection1", "selection2");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
+// function showoptions() {
+//   var x = document.getElementById("selection1", "selection2");
+//   if (x.style.display === "none") {
+//     x.style.display = "block";
+//   } else {
+//     x.style.display = "none";
+//   }
+// }
 
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
@@ -119,3 +119,14 @@ function myFunction() {
 // 	root.style.setProperty('--car-color', this.value);
 // });
 
+ // select the button and the div
+ const button = document.getElementById('button-customize');
+ const div = document.getElementById('selection1');
+
+ // define the function to change the HTML content
+ function changeContent() {
+   div.innerHTML = '<p>New HTML content!</p>';
+ }
+
+ // add event listener to the button
+ button.addEventListener('click', changeContent);
