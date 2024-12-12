@@ -1299,7 +1299,8 @@ button.img {
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 1vw;
     padding: 1rem;
-    margin-bottom: 20vh
+    margin-bottom: 10vh;
+    margin-top: 10vh;
 }
 
 section.car-checkout {
@@ -1462,7 +1463,6 @@ section.config-content {
 
 .cart-img {
     height: 15rem;
-<<<<<<< Updated upstream
     width: 15rem;
     padding-right: 2rem;
 }
@@ -1525,7 +1525,6 @@ section.config-content {
 
 .colors {
     margin-top: 5vh
-=======
     width: 13rem;
     padding-right: 0rem;
     border: #B62431 solid 4px;
@@ -1581,9 +1580,16 @@ section.config-content {
     padding-top: 1rem;
 }
 
-
-
 .rec-merch-flex h2 {
     padding-left: 1rem;
->>>>>>> Stashed changes
+}
+
+.secnd-small {
+    height: 10vh
+}
+
+.explanation {
+    height: 60vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
