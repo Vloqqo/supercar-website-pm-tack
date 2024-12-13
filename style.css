@@ -1859,6 +1859,13 @@ section.thisitem p {
     text-align: center;
 }
 
+section.colors {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    border: none;
+    width: 100%;
+}
 .ahero {
     display: flex;
     flex-flow: column;
