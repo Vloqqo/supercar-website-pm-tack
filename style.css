@@ -1781,33 +1781,74 @@ section.top-half-item-page {
     border-bottom: 1px solid white;
 }
 
+
+section.top-half-item-page img {
+    width: 100%
+}
+
+section.item-image {
+    width:50%;
+
+}
+
 section.item-info {
     width: 50vw;
     text-align: center;
     border-left: 1px solid white;
     display: flex;
     flex-flow: column;
+    background-color: #1c102e;
+    justify-content: space-around
+}
+
+section.item-info h2 {
+    border-bottom: 1px solid white;
+    padding-bottom: 3rem;
 }
 
 section.item-info p {
     margin-left: 10vw;
     margin-right: 10vw;
+    text-align: left;
+    line-height: 5vh;
 }
 
 section.buy-item {
     display: flex;
     flex-flow: column wrap;
-    width: 10vw;
     align-self: center;
-    height: 10vh;
-    justify-content: space-around;
     border: solid white 1px;
 }
 
 section.buy-item button {
-    background-color:rgb(65, 65, 65)
+    background-color:rgb(65, 65, 65);
+    height: 5vh;
+    width: 19.9vw;
+}
+
+section.itemsthree {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 section.reccomendations-items h2 {
     text-align: center;
 }
+
+section.thisitem {
+    width: fit-content;
+    margin: 1rem;
+}
+
+section.thisitem img {
+    width: 20vw;
+    height: 40vh;
+    object-fit: cover;
+}
+
+section.thisitem p {
+    width: 100%;
+    text-align: center;
+}
+
