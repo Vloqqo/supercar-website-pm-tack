@@ -1467,9 +1467,15 @@ section.config-content {
     justify-content: flex-start;
 }
 
-.cart-content p {
-    padding: 1rem;
+.cart-content button {
+    cursor: pointer;
+    display: inline-block;
+    height: 0rem;
+    background-color: black;
     font-weight: bold;
+    border: none;
+    margin-top: 4%;
+    padding: 0rem 1rem;
 }
 
 .cart-img {
@@ -1630,58 +1636,6 @@ section.config-content {
     width: 33%;
 }
 
-.cardinfo-container h1 {
-    margin-top: 0rem;
-}
-
-.cardinfo form {
-    display: flex;
-    flex-flow: column wrap;
-}
-
-.cardinfo form > input {
-    margin: 0rem;
-    padding: 0.5rem;
-    width: 20rem;
-}
-
-.cardinfo form > input, textarea {
-    color: black;
-}
-
-.cardinfo form > a {
-    padding: 0.5rem;
-    margin-top: 2rem;
-    width: 20rem;
-    color: black;
-    background-color: #fff;
-    text-align: center;
-}
-
-.cardinfo form > a:last-child {
-    color: lightgrey;
-    background-color: black;
-    text-decoration: underline;
-}
-
-.cardinfo form > section {
-    margin-left: 2rem; 
-}
-
-.cardinfo form input {
-    background-color: white;
-    border-radius: 0;
-}
-
-.cardinfo form > input::placeholder {
-    color: grey;
-}
-
-.cardinfo form input {
-    background-color: white;
-    border-radius: 0;
-}
-
 .rec-merch-alt {
     display: inline-block;
     position: absolute;
@@ -1761,6 +1715,17 @@ section.config-content {
    
 }
 
+.store-columnA figure:hover,
+.store-columnB figure:hover,
+.store-columnC figure:hover {
+    background-color: #717171;
+}
+
+
+.store-columnA figure.active {
+    font-weight: bold;
+}
+
 .store-columnC img:last-child {
     width: 20rem;
     height: 15rem;
@@ -1780,6 +1745,8 @@ section.config-content {
     height: 55vh;
     background-color: #1F1A27;
     border-bottom: #B62431 solid;
+} 
+
 a.mat-pick {
   height: 5vh;
   aspect-ratio: 1/cos(30deg);
