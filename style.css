@@ -1852,6 +1852,7 @@ section.thisitem p {
     text-align: center;
 }
 
+section.colors {
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
