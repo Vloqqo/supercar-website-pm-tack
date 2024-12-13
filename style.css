@@ -755,7 +755,8 @@ img.models {
 .selection1 {
     justify-content: center;
     width: 100%;
-    margin-left: 1vw
+    margin-left: 1vw;
+    border-radius: 1vw;
 }
 
 .selection1 > h2 {
@@ -1945,4 +1946,32 @@ section.colors {
 
 .employee-rowB figure > img{
     height: 20rem;
+}
+
+
+.hero-cont {
+    display:flex;
+    flex-flow: column wrap;
+    align-content:flex-end;
+    justify-content: center;
+    height: 100%;
+}
+
+.aplusp a, .aplusp p {
+    width:max-content;
+    margin-bottom: 0;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, .5);
+    max-width: 16vw;
+}
+
+.aplusp p {
+    padding: 1rem;
+    background-color: rgba(110, 6, 6, 0.8)
+}
+
+.aplusp {
+    display: flex;
+    flex-flow: column;
+    margin-right: 10vw;
 }
