@@ -1852,3 +1852,90 @@ section.thisitem p {
     text-align: center;
 }
 
+.ahero {
+    display: flex;
+    flex-flow: column;
+    background-image: url(/images/KS_config_hanger.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 55vh;
+    background-color: #1F1A27;
+    border-bottom: #B62431 solid;
+}
+
+.about-container {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    padding-bottom: 10rem;
+}
+
+.about-orient {
+    display: flex;
+    text-align: left;
+    justify-content: space-evenly;
+}
+
+.about-content {
+    max-width: 20%;
+    font-size: 20px
+}
+
+.CEO-description {
+    display: flex;
+    flex-flow: column;
+    max-width: 35%;
+    padding-left: 3rem;
+}
+
+.CEO-description p{
+    margin-top: 3rem;
+    font-size: 20px;
+}
+
+.CEO {
+    display: flex;
+    justify-content: center;
+    border: #B62431 solid;
+
+}
+
+.CEO img{
+    height: 40rem;
+    border:#B62431 solid;
+}
+
+.employees {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.employee-rowA {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.employee-rowB {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.employee-rowA figure {
+    text-align: center;
+    font-size: 20px;
+}
+
+.employee-rowB figure{
+    text-align: center;
+    font-size: 20px;
+}
+
+.employee-rowA figure > img { 
+    height: 20rem;
+}
+
+.employee-rowB figure > img{
+    height: 20rem;
+}
