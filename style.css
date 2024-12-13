@@ -347,6 +347,12 @@ ul li ul li {
     width: 98.4%;
 }
 
+.hexagon {
+    display: flex;
+    margin-bottom: 10rem;
+    justify-content: center;
+}
+
 .hexagon-content {
     background-image: url(images/hexagon-background.png);
     background-position-x: center;
@@ -359,8 +365,8 @@ ul li ul li {
     padding-left: 10rem;
     margin-left: -6vw;
     font-size: 20px;
-    margin-bottom: 10vh;
     z-index: -1;
+    height: 10rem;
 }
 
 .hexagon-content h2 {
@@ -539,7 +545,7 @@ img.black {
 }
 
 img.hex-img {
-    height: 90%;
+    height: 15rem;
 }
 
 .rectanglish {
@@ -854,6 +860,7 @@ section.colors {
     align-items: space-evenly;
     margin-bottom: 5%;
     margin-top: 5%;
+    height: 25%;
 }
 
 .ocar-content {
@@ -1947,6 +1954,15 @@ section.colors {
 .employee-rowB figure > img{
     height: 20rem;
 }
+
+.bwdescription p {
+    max-width: 60ch;
+}       
+
+.ndescription p {
+    max-width: 60ch;
+}
+
 
 
 .hero-cont {
