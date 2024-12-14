@@ -1899,8 +1899,13 @@ section.colors {
 }
 
 .about-content {
-    max-width: 20%;
+    max-width: 30vw;
     font-size: 20px
+}
+
+.about-content p {
+    line-height: 4vh;
+    margin-top: 1vh;
 }
 
 .CEO-description {
@@ -2009,4 +2014,21 @@ section.colors {
 .store-choose {
     display: flex;
     justify-content: space-around
+}
+
+.heading-about {
+    display: flex;
+    justify-content: center;
+}
+
+.heading-about h2 {
+    width: fit-content;
+    padding: 1rem;
+    border-bottom: 1px solid #B62431;
+}
+
+.about-content h3 {
+    border-bottom: 1px solid white;
+    padding-bottom: .5rem;
+    margin-bottom: 2vh;
 }
