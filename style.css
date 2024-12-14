@@ -366,7 +366,7 @@ ul li ul li {
     margin-left: -6vw;
     font-size: 20px;
     z-index: -1;
-    height: 10rem;
+    height: 30vh;
 }
 
 .hexagon-content h2 {
@@ -377,13 +377,18 @@ ul li ul li {
 
 .hex {
     display: flex;
-    height: 20vh;
-    width: 70%;
+    height: 30vh;
+    width: fit-content;
     flex-flow: row wrap;
     margin-top: 10vh;
     margin-left: 1vw;
 }
 
+.hex p {
+    line-height: 6vh
+}
+
+/* GET RID OF LATER
 .hex-alt {
     display: flex;
     height: 20vh;
@@ -402,7 +407,7 @@ ul li ul li {
     padding-right: 10rem;
     padding-left: 2rem;
     margin-right: -9rem
-}
+} */
 
 
 .footer {
@@ -545,7 +550,7 @@ img.black {
 }
 
 img.hex-img {
-    height: 15rem;
+    height: 30vh;
 }
 
 .rectanglish {
