@@ -1847,6 +1847,7 @@ section.itemsthree {
 
 section.reccomendations-items h2 {
     text-align: center;
+    margin-top: 4vh;
 }
 
 section.thisitem {
@@ -1912,6 +1913,7 @@ section.colors {
 .CEO-description p{
     margin-top: 3rem;
     font-size: 20px;
+    line-height: 5vh;
 }
 
 .CEO {
@@ -1921,9 +1923,13 @@ section.colors {
 
 }
 
-.CEO img{
-    height: 40rem;
-    border:#B62431 solid;
+.CEO img {
+    height: 60vh;
+    object-fit: cover;
+    object-position: 0 0;
+    aspect-ratio: 1/cos(30deg);
+    clip-path: polygon(50% -50%,100% 50%,50% 150%,0 50%);
+    margin: 2rem;
 }
 
 .employees {
@@ -1968,8 +1974,6 @@ section.colors {
     max-width: 60ch;
 }
 
-
-
 .hero-cont {
     display:flex;
     flex-flow: column wrap;
@@ -1995,4 +1999,14 @@ section.colors {
     display: flex;
     flex-flow: column;
     margin-right: 10vw;
+}
+
+.store-choose li {
+    width:max-content;
+    height: max-content;
+}
+
+.store-choose {
+    display: flex;
+    justify-content: space-around
 }
