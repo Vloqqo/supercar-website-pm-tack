@@ -868,6 +868,11 @@ section.colors {
     height: 25%;
 }
 
+.owned-car img{
+    width: 25rem;
+    height: 15rem
+}
+
 .ocar-content {
     background-image: url(images/hexagon-background.png);
     background-position-x: center;
@@ -1971,13 +1976,22 @@ section.colors {
     height: 20rem;
 }
 
+.bwdescription {
+    border-bottom: #B62431 solid;
+}
+
+.ndescription {
+    border-bottom: #B62431 solid;
+}
+
 .bwdescription p {
-    max-width: 60ch;
+    max-width: 70ch;
 }       
 
 .ndescription p {
     max-width: 60ch;
 }
+
 
 .hero-cont {
     display:flex;
@@ -2031,4 +2045,34 @@ section.colors {
     border-bottom: 1px solid white;
     padding-bottom: .5rem;
     margin-bottom: 2vh;
+}
+
+.car-descriptionf {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.car-descriptionf-alt {
+    display: flex
+}    
+
+.car-descriptionf-alt img{
+    width: 25rem;
+    border-bottom: #B62431 solid;
+    margin-bottom: 2.4%;
+}
+
+.car-description-alt a {
+   margin-right: 30rem;
+}
+
+.continue-custom a{
+    display: flex;
+}
+
+.car-descriptionf img{
+    width: 25rem;
+    position: absolute;
+    margin-top: 5.25%;
+    border-bottom: #B62431 solid;
 }
