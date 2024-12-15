@@ -1255,11 +1255,17 @@ section.order img {
 }
 
 .confirm {
-    display: inline-block;
+    display: flex;
     font-size: 25px;
+    font-weight: bold;
+    justify-content: flex-end
+}
+
+.confirm a {
     border: #B62431 solid 2px;
     padding: 0.5rem;
-    margin: auto auto 1.5rem 118rem;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
 }
 
 .saved-config-page {
@@ -1401,7 +1407,7 @@ a.car-checkout {
     border-radius: 2rem;
     border: #B62431 solid 2px;
     width: 30%;
-    height: 30%;
+    height: 34%;
     z-index: 1000;
     margin-left: 36%;
     margin-top: -5%;
@@ -1441,11 +1447,14 @@ a.car-checkout {
 }
 
 .confirm-alt {
-    display: inline-block;
     font-size: 15px;
     border: #B62431 solid 2px;
     padding: 0.5rem;
-    margin-left: 43%;
+}
+
+.confirm-time {
+    display: flex;
+    justify-content: center;
 }
 
 .thank-you {
