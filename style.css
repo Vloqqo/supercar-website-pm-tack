@@ -1314,8 +1314,8 @@ button.img {
 .fillout-small {
     display: flex;
     flex-flow: column wrap;
-    width: 20vw;
-    height: 40vh;
+    width: 100%;
+    height: 100%;
     align-content: space-between;
 }
 
@@ -1325,6 +1325,8 @@ button.img {
     padding: 1rem;
     margin-bottom: 10vh;
     margin-top: 10vh;
+    width: 20vw;
+    height: 60vh
 }
 
 section.car-checkout {
@@ -1781,11 +1783,11 @@ a.roof-pick {
 }
 
 .taketwo {
-    height: 32vh
+    height: 70%
 }
 
 .secnd-rctngle {
-    height:41vh
+    height: 70%
 }
 
 section.top-half-item-page {
