@@ -6,10 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trion Supercars</title>
     <link rel="stylesheet" href="/style.css">
+    <script src="/script.js"></script>
     <script src="/fast.js" defer></script>
 </head>
 
-<body>
+<body onload="move()" class="loading-anim">
+    <div class="loadingscreen">
+        <img class="load1"src="/images/black-load.svg" alt="Part of loading screen">
+        <img class="load2" src="/images/red-load.svg" alt="Part of loading screen">
+        <img src="/images/trion-big.svg" alt="Big Trion logo when loading page" class="load3">
+        <div class="bar-class">
+            <div id="myBar" class="container blue-color" style="width:20%">20%</div>
+          </div>     
+    </div>
     <nav>
         <ul class="header">
             <li class="make-same home png"><a href="/index.html"><img src="/images/trion.png" alt="Barebones logo of Trion"></a></li>
@@ -56,7 +65,6 @@
             <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
         </form>
     </section>
-
     <header class="cpage">
         <h2>Nemesis</h2>
     </header>

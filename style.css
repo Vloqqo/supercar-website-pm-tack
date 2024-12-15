@@ -2108,6 +2108,71 @@ ul li.make-same {
     width: min-content;
 }
 
+.loadingscreen {
+position: absolute;
+  z-index: 11;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.loadingscreen .load1 {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    animation: slide-diagonal-right 600ms;
+}
+
+.loadingscreen .load2{
+    position: absolute;
+    right: 0;
+    width: 100%;
+    animation: slide-diagonal-left 600ms;
+}
+
+@keyframes slide-diagonal-left {
+    from {
+        transform: translateX(50vw) translateY(-150vh);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-diagonal-right {
+    from {
+        transform: translateX(-50vw) translateY(150vh);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.load3 {
+    z-index: 12;
+}
+
+.bar-class {
+    z-index: 13;
+    width: 80%;
+    background-color: #ddd;
+    border-radius: 1vw;
+}
+
+#myBar {
+    width: 10%;
+    height: 30px;
+    background-color: #2089b9;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 1vw;
+  }
+
 @media screen and (max-width: 1024px){
     figure.cars {
         display: flex;
