@@ -6,7 +6,6 @@
 @font-face {
     font-family: "regular";
     src: url(/fonts/regular.woff2) format("woff2");
-    font-optical-sizing: auto;
 }
 
 @font-face {
@@ -17,7 +16,7 @@
 
 * {
     box-sizing: border-box;
-    font: url(/fonts/regular.woff2);
+    font-family: "regular";
     color: white;
 }
 
@@ -88,7 +87,7 @@ ul.dropdown li {
     bottom: 1vh;
     right: .5vw;
     z-index: 1;
-    background-color: none;
+    background-color: transparent;
 }
 
 .popup .popup-container h2 {
@@ -130,7 +129,7 @@ ul.dropdown li {
 }
 
 .popup-container .btn {
-    background-color: none;
+    background-color: transparent;
     color: white;
     padding: 0.5rem;
     border: none;
@@ -140,7 +139,7 @@ ul.dropdown li {
 }
 
 .popup-container .cancel {
-    background-color: none;
+    background-color: transparent;
 }
 
 .abtn {
@@ -566,7 +565,6 @@ img.hex-img {
     padding-top: .1rem;
     height: 25vh;
     margin-left: 19.8vw;
-    rotate: 0deg;
     padding-bottom: .1rem;
     height: 30vh;
     margin-left: 19.8vw;
@@ -574,7 +572,6 @@ img.hex-img {
 }
 .car-description {
     border-bottom: #B62431 solid;
-    border-width: 100%;
     display: flex;
     flex-flow: row wrap;
 }
@@ -753,7 +750,6 @@ a.on-page {
 .customizing-content > ul {
     flex-flow: column wrap;
     width: max-content;
-    justify-content: none;
     margin: 0;
     padding-right: 1.5rem;
     border-right: solid white 1px;
@@ -870,7 +866,6 @@ section.colors {
 .owned-car {
     display: flex;
     flex-flow: row wrap;
-    align-items: space-evenly;
     margin-bottom: 5%;
     margin-top: 5%;
     height: 25%;
@@ -2098,7 +2093,6 @@ section.colors {
 }
 .contain-all {
     width: fit-content;
-    justify-items: space-around;
 }
 
 .allandimage {
