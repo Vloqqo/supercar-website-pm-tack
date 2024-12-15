@@ -354,7 +354,7 @@ ul li ul li {
 }
 
 .hexagon-content {
-    background-image: url(images/hexagon-background.png);
+    background-image: url(images/hexagon-background.webp);
     background-position-x: center;
     background-position-y: center;
     background-size: cover;
@@ -368,6 +368,7 @@ ul li ul li {
     z-index: -1;
     height: 30vh;
 }
+
 
 .hexagon-content h2 {
     margin-left: -1vw;
@@ -849,7 +850,7 @@ section.colors {
 .chero {
     display: flex;
     flex-flow: column;
-    background-image: url(/images/blackcar.jpg);
+    background-image: url(/images/blackcar.avif);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -873,7 +874,7 @@ section.colors {
 }
 
 .ocar-content {
-    background-image: url(images/hexagon-background.png);
+    background-image: url(images/hexagon-background.webp);
     background-position-x: center;
     background-position-y: center;
     background-size: cover;
@@ -1126,7 +1127,7 @@ section.order img {
     Display: inline-block;
     border: #B62431 solid 2px;
     max-width: 400px;
-    background-image: url(/images/hexagon-background.png);
+    background-image: url(/images/hexagon-background.webp);
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -1758,7 +1759,7 @@ section.config-content {
 .shero {
     display: flex;
     flex-flow: column;
-    background-image: url(/images/modelsbig.png);
+    background-image: url(/images/modelsbig.avif);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1883,7 +1884,7 @@ section.colors {
 .ahero {
     display: flex;
     flex-flow: column;
-    background-image: url(/images/KS_config_hanger.jpg);
+    background-image: url(/images/KS_config_hanger.avif);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2077,6 +2078,7 @@ section.colors {
     position: absolute;
     margin-top: 5.25%;
     border-bottom: #B62431 solid;
+}
 .contain-all {
     width: fit-content;
     justify-items: space-around;
