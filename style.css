@@ -732,16 +732,15 @@ img.models {
 }
 .customizing {
     display: flex;
+    width: 100%;
+    justify-content: space-between
 }
 
-.customizing a h2.ext {
-    margin-left: 5vw;
+.customizing a {
+    padding: 1rem;
+    font-size: 24px;
+    font-weight: bold;    
 }
-
-.customizing a h2.int {
-    margin-left: 22vw;
-}
-
 
 .customizing-content > ul {
     flex-flow: column wrap;
@@ -897,6 +896,7 @@ section.colors {
 .all-customization {
     display: flex;
     justify-content: space-around;
+    width: fit-content;
 }
 
 button.choose-customize {
@@ -1319,8 +1319,8 @@ button.img {
 .fillout-small {
     display: flex;
     flex-flow: column wrap;
-    width: 20vw;
-    height: 40vh;
+    width: 100%;
+    height: 100%;
     align-content: space-between;
 }
 
@@ -1330,6 +1330,8 @@ button.img {
     padding: 1rem;
     margin-bottom: 10vh;
     margin-top: 10vh;
+    width: 20vw;
+    height: 60vh
 }
 
 section.car-checkout {
@@ -1786,11 +1788,11 @@ a.roof-pick {
 }
 
 .taketwo {
-    height: 32vh
+    height: 70%
 }
 
 .secnd-rctngle {
-    height:41vh
+    height: 70%
 }
 
 section.top-half-item-page {
@@ -2075,4 +2077,12 @@ section.colors {
     position: absolute;
     margin-top: 5.25%;
     border-bottom: #B62431 solid;
+.contain-all {
+    width: fit-content;
+    justify-items: space-around;
+}
+
+.allandimage {
+    display: flex;
+    justify-content: space-around
 }
