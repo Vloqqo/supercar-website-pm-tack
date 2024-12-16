@@ -2195,6 +2195,51 @@ position: absolute;
     border-radius: 1vw;
   }
 
+
+  section.cart-listing {
+    justify-content: flex-start;
+    margin-left: 2vw;
+    width: fit-content;
+}
+
+section.cart-stuff .orders {
+    border-color:#B62431
+}
+
+section.order img {
+    width: 10vw;
+    height: 20vh;
+    object-fit: cover; 
+}
+
+
+section.make-red section.order {
+    border-color: #B62431;
+    padding: .1rem;
+}
+
+button#minus-btn, button#plus-btn, input#quantity {
+    background-color: transparent;
+}
+input#quantity {
+    width: 3.5rem;
+    text-align: center;
+}
+
+section.order-content p, section.order-content h2 {
+    margin-left: 1rem;
+    width: 80%;
+}
+section.qty {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%
+}
+
+section.qty p {
+    width:fit-content
+}
+
 @media screen and (max-width: 1024px){
     figure.cars {
         display: flex;
@@ -2308,53 +2353,36 @@ position: absolute;
     li.right2 {
         margin-right: -4vw
     }
+    img.car-customization {
+        width: 60vw;
+        object-fit: contain;
+    }
+    section.contain-all {
+        width: 50vw;
+    }
+    section.all-customization {
+        width: 40vw;
+    }
+    section.customizing-content {
+        width: 40vw;
+        margin-left: 1vw;
+        padding: .7rem
+    }
+    a.color-pick {
+        width: 4vw;
+        height: 4vh;
+    }
+    section.colors2 {
+        margin-top: 5vh;
+    }
+    section.car-descriptionf {
+        height: 40vh
+    }
+    .concierge-chat {
+        width: 82vw;
+        overflow-x:hidden
+    }
+    section.order img {
+        width: 30vw;
+    }
 }
-
-section.cart-listing {
-    justify-content: flex-start;
-    margin-left: 2vw;
-    width: fit-content;
-}
-
-section.cart-stuff .orders {
-    border-color:#B62431
-}
-
-section.order img {
-    width: 10vw;
-    height: 20vh;
-    object-fit: cover; 
-}
-
-
-section.make-red section.order {
-    border-color: #B62431;
-    padding: .1rem;
-}
-
-button#minus-btn, button#plus-btn, input#quantity {
-    background-color: transparent;
-}
-input#quantity {
-    width: 3.5rem;
-    text-align: center;
-}
-
-section.order-content p, section.order-content h2 {
-    margin-left: 1rem;
-    width: 80%;
-}
-section.qty {
-    display: flex;
-    justify-content: flex-end;
-    width: 80%
-}
-
-section.qty p {
-    width:fit-content
-}
-
-/* .fixing-img {
-    height: fit-content;
-    justify-content: space-between;
-} */
