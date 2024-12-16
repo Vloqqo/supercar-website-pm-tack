@@ -882,7 +882,6 @@ section.colors {
 .owned-car img{
     width: 25rem;
     height: 15rem;
-    position:
 }
 
 .ocar-content {
@@ -2314,14 +2313,14 @@ section.qty p {
         height: 30vh;
     }
     section.CEO {
-        justify-content: space-around
+        justify-content: center;
+        width: 95%;
     }
-    section.CEO, article.CEO-description {
-        height: 55vw
-    }
+
+
     article.CEO-description {
         width: fit-content;
-        max-width: none;
+        max-width: 100%;
         padding: 0;
         margin-left: 1vw;
         justify-content: center;
@@ -2332,7 +2331,7 @@ section.qty p {
         align-self: center
     }
     article.CEO-description p {
-        width: 60vw;
+        width: 50vw;
         margin: 0;
     }
     section.employee-rowA, section.employee-rowB {
@@ -2353,6 +2352,7 @@ section.qty p {
     li.right2 {
         margin-right: -4vw
     }
+<<<<<<< Updated upstream
     img.car-customization {
         width: 60vw;
         object-fit: contain;
@@ -2386,3 +2386,74 @@ section.qty p {
         width: 30vw;
     }
 }
+=======
+
+    .owned-car {
+        width: 80%;
+    }
+
+    .owner-car img {
+        width: 5vw;
+    }
+
+    .recommendation {
+        width: 30%;
+        bottom: -23.2%;
+    }
+
+    .search {
+        margin-left: 3rem;
+    }
+
+    .time {
+        height: 40%;
+    }
+
+}
+
+
+section.cart-listing {
+    justify-content: flex-start;
+    margin-left: 2vw;
+    width: fit-content;
+}
+
+section.cart-stuff .orders {
+    border-color:#B62431
+}
+
+section.order img {
+    width: 10vw;
+    height: 20vh;
+    object-fit: cover; 
+}
+
+
+section.make-red section.order {
+    border-color: #B62431;
+    padding: .1rem;
+}
+
+button#minus-btn, button#plus-btn, input#quantity {
+    background-color: transparent;
+}
+input#quantity {
+    width: 3.5rem;
+    text-align: center;
+}
+
+section.order-content p, section.order-content h2 {
+    margin-left: 1rem;
+    width: 80%;
+}
+section.qty {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%
+}
+
+section.qty p {
+    width:fit-content
+}
+
+>>>>>>> Stashed changes
