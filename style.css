@@ -2086,13 +2086,16 @@ section.colors {
 
 
 .car-descriptionf-alt {
-    display: flex
-}    
+    display: flex;
+}
+
+.rectanglish-alt {
+    margin: 0;
+}
 
 .car-descriptionf-alt img{
     width: 25rem;
     border-bottom: #B62431 solid;
-    margin-bottom: 2.4%;
 }
 
 .car-description-alt a {
