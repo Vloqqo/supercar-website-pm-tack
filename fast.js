@@ -15,4 +15,9 @@ menuOptionLinks.forEach((link, index) => {
         // Show the corresponding menu-content element based on the index
         menuContent[index].classList.add('active');
     });
-});
+  });
+
+var loadingScreen = document.querySelector(".loadingscreen");
+window.addEventListener('load', function() {
+    loadingScreen.style.display = 'none';
+  })
