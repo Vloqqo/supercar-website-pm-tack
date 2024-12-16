@@ -2025,6 +2025,7 @@ section.colors {
 .store-choose li {
     width:max-content;
     height: max-content;
+    cursor: pointer;
 }
 
 .store-choose {
@@ -2077,6 +2078,8 @@ section.colors {
     position: absolute;
     margin-top: 5.25%;
     border-bottom: #B62431 solid;
+}
+
 .contain-all {
     width: fit-content;
     justify-items: space-around;
