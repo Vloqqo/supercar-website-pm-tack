@@ -2287,3 +2287,51 @@ position: absolute;
         margin-right: -4vw
     }
 }
+
+section.cart-listing {
+    justify-content: flex-start;
+    margin-left: 2vw;
+    width: fit-content;
+}
+
+section.cart-stuff .orders {
+    border-color:#B62431
+}
+
+section.order img {
+    width: 10vw;
+    height: 20vh;
+    object-fit: cover; 
+}
+
+section.make-red {
+
+}
+
+section.make-red section.order {
+    border-color: #B62431;
+    padding: .1rem;
+}
+
+button#minus-btn, button#plus-btn, input#quantity {
+    background-color: transparent;
+}
+input#quantity {
+    width: 3.5rem;
+    text-align: center;
+}
+
+section.order-content p, section.order-content h2 {
+    margin-left: 1rem;
+    width: 80%;
+}
+section.qty {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%
+}
+
+section.qty p {
+    width:fit-content
+}
+
