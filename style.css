@@ -869,11 +869,13 @@ section.colors {
     margin-bottom: 5%;
     margin-top: 5%;
     height: 25%;
+    position: relative;
 }
 
 .owned-car img{
     width: 25rem;
-    height: 15rem
+    height: 15rem;
+    position:
 }
 
 .ocar-content {
@@ -1585,15 +1587,17 @@ section.config-content {
     position: absolute;
     border: #B62431 solid 3px;
     width: 30%;
-    height: 55%;
+    height: fit-content;
     margin-left: 60%;
     bottom: 20%;
     border-radius: 2rem;
+    padding: 1rem;
 }
 
 .rec-merch-flex {
     display: flex;
-    flex-flow: column wrap;   
+    flex-flow: column wrap;
+    height: fit-content;
 }
 
 .rec-merch-flex h2 {
@@ -1601,15 +1605,19 @@ section.config-content {
 }
 
 .order-now {
-    text-align: center;
-    display: inline-block;
-    font-size: 25px;
-    border: #B62431 solid 2px;
-    width: 10%;
-    padding: 0.5rem;
-    margin-left: 2.5rem;
+    display: flex;
     margin-bottom: 3rem;
     margin-top: 3rem;
+    justify-content: flex-end;
+}
+
+.order-now a {
+    font-size: 25px;
+    border: 2px solid #B62431;
+    padding: .5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 5vw;
 }
 
 .cart-img-alt {
@@ -2038,7 +2046,6 @@ section.colors {
 .store-choose li {
     width:max-content;
     height: max-content;
-    cursor: pointer;
 }
 
 .store-choose {
@@ -2304,6 +2311,7 @@ section.order img {
     height: 20vh;
     object-fit: cover; 
 }
+
 
 section.make-red section.order {
     border-color: #B62431;
