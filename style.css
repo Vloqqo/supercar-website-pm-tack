@@ -570,6 +570,13 @@ img.hex-img {
     margin-left: 19.8vw;
     margin-top: -0.3vh;
 }
+
+section.car-descriptionf section.rectanglish {
+    margin: 0;
+    margin-left: 19.8vw
+
+}
+
 .car-description {
     border-bottom: #B62431 solid;
     display: flex;
@@ -2073,7 +2080,10 @@ section.colors {
 .car-descriptionf {
     display: flex;
     flex-flow: wrap;
+    align-items: flex-end;
+    margin-bottom: 25vh;
 }
+
 
 .car-descriptionf-alt {
     display: flex
@@ -2094,10 +2104,11 @@ section.colors {
 }
 
 .car-descriptionf img{
-    width: 25rem;
+    width: 25vw;
     position: absolute;
     margin-top: 5.25%;
     border-bottom: #B62431 solid;
+    transform: scaleX(-1);
 }
 .contain-all {
     width: fit-content;
@@ -2340,3 +2351,7 @@ section.qty p {
     width:fit-content
 }
 
+/* .fixing-img {
+    height: fit-content;
+    justify-content: space-between;
+} */
