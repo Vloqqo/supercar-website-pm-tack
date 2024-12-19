@@ -2239,6 +2239,52 @@ section.qty p {
     width:fit-content
 }
 
+
+
+section.cart-listing {
+    justify-content: flex-start;
+    margin-left: 2vw;
+    width: fit-content;
+}
+
+section.cart-stuff .orders {
+    border-color:#B62431
+}
+
+section.order img {
+    width: 10vw;
+    height: 20vh;
+    object-fit: cover; 
+}
+
+section.make-red section.order {
+    border-color: #B62431;
+    padding: .1rem;
+}
+
+button#minus-btn, button#plus-btn, input#quantity {
+    background-color: transparent;
+}
+
+input#quantity {
+    width: 3.5rem;
+    text-align: center;
+}
+
+section.order-content p, section.order-content h2 {
+    margin-left: 1rem;
+    width: 80%;
+}
+section.qty {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%
+}
+
+section.qty p {
+    width:fit-content
+}
+
 @media screen and (max-width: 1024px){
     figure.cars {
         display: flex;
@@ -2316,8 +2362,6 @@ section.qty p {
         justify-content: center;
         width: 95%;
     }
-
-
     article.CEO-description {
         width: fit-content;
         max-width: 100%;
@@ -2352,7 +2396,6 @@ section.qty p {
     li.right2 {
         margin-right: -4vw
     }
-<<<<<<< Updated upstream
     img.car-customization {
         width: 60vw;
         object-fit: contain;
@@ -2383,10 +2426,8 @@ section.qty p {
         overflow-x:hidden
     }
     section.order img {
-        width: 30vw;
+        width: 20vw;
     }
-}
-=======
 
     .owned-car {
         width: 80%;
@@ -2409,51 +2450,14 @@ section.qty p {
         height: 40%;
     }
 
-}
+    section.order {
+        width: 100vw
+    }
+    section.order-content {
+        width:  100vw
+    }
+    section.history {
+        width: 100vw
+    }
 
-
-section.cart-listing {
-    justify-content: flex-start;
-    margin-left: 2vw;
-    width: fit-content;
 }
-
-section.cart-stuff .orders {
-    border-color:#B62431
-}
-
-section.order img {
-    width: 10vw;
-    height: 20vh;
-    object-fit: cover; 
-}
-
-
-section.make-red section.order {
-    border-color: #B62431;
-    padding: .1rem;
-}
-
-button#minus-btn, button#plus-btn, input#quantity {
-    background-color: transparent;
-}
-input#quantity {
-    width: 3.5rem;
-    text-align: center;
-}
-
-section.order-content p, section.order-content h2 {
-    margin-left: 1rem;
-    width: 80%;
-}
-section.qty {
-    display: flex;
-    justify-content: flex-end;
-    width: 80%
-}
-
-section.qty p {
-    width:fit-content
-}
-
->>>>>>> Stashed changes
