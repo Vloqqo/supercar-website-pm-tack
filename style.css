@@ -2459,5 +2459,27 @@ section.qty p {
     section.history {
         width: 100vw
     }
-
+    section.cart {
+        width: 100%;
+    }
+    section.cart-listing {
+        width:100%
+    }
+    .car-descriptionf-alt {
+        height: fit-content;
+        position: relative;
+    }
+    .rectanglish-alt {
+        width: 100%
+    }
+    .car-descriptionf-alt img {
+        width: 20%;
+        height: 50%;
+        align-self: flex-end;
+        object-fit: contain;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+    }
 }
