@@ -2285,6 +2285,10 @@ section.qty p {
     width:fit-content
 }
 
+.quick {
+    margin-left: 5vw;
+}
+
 @media screen and (max-width: 1024px){
     figure.cars {
         display: flex;
