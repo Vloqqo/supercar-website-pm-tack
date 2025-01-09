@@ -577,6 +577,8 @@ section.car-descriptionf section.rectanglish {
 
 }
 
+
+
 .car-description {
     border-bottom: #B62431 solid;
     display: flex;
@@ -2289,6 +2291,19 @@ section.qty p {
     margin-left: 5vw;
 }
 
+.black-widow-click {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.interior-cust {
+    width:48%;
+    height: fit-content;
+    align-self: center;
+    object-fit: contain;
+}
+
 @media screen and (max-width: 1024px){
     figure.cars {
         display: flex;
@@ -2323,6 +2338,7 @@ section.qty p {
     .rectanglish h2 {
         margin-left: 29vw;
         margin-top: 3vh;
+        margin-bottom: 0;
     }
     
     .rectanglish p {
@@ -2339,7 +2355,8 @@ section.qty p {
     }
     
     .rectanglish p:last-of-type {
-        margin-left: 47vw
+        margin-left: 47vw;
+        margin-top: 1vh
     }
     .login {
         display: flex;
@@ -2485,5 +2502,12 @@ section.qty p {
         right: 0;
         bottom: 0;
         z-index: -1;
+    }
+    section.car-descriptionf section.rectanglish {
+        background-position: -9vw;
+        z-index: 100;
+        margin-left: 0;
+        width: 100%;
+        height:
     }
 }
