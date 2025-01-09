@@ -2284,6 +2284,19 @@ section.qty p {
     object-fit: contain;
 }
 
+section.ahero {
+    display: flex;
+    align-items: center;
+}
+
+section.ahero h1 {
+    background-color: rgba(110, 6, 6, 0.8);
+    width: fit-content;
+    padding: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 @media screen and (max-width: 1024px){
     figure.cars {
         display: flex;
