@@ -390,28 +390,6 @@ ul li ul li {
     line-height: 6vh
 }
 
-/* GET RID OF LATER
-.hex-alt {
-    display: flex;
-    height: 20vh;
-    width: 70%;
-    flex-flow: row wrap;
-    margin-top: 10vh;
-    justify-content: flex-end;
-    margin-left: 29vw
-}
-
-.hex-alt >.hexagon-content > h2 {
-    margin-left: 45vw;
-}
-
-.hex-alt > .hexagon-content {
-    padding-right: 10rem;
-    padding-left: 2rem;
-    margin-right: -9rem
-} */
-
-
 .footer {
     border-top: solid white 3px;
     color: white;
@@ -448,11 +426,12 @@ img.orange {
     margin-bottom: 6vh;
 }
 
-
 .carousel {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
     width: 30vw;
     position: absolute;
-    margin: 2vw auto auto;
     margin-top: 0;
 }
 
@@ -564,7 +543,6 @@ img.hex-img {
     margin-top: -0.1vw;
     padding-top: .1rem;
     height: 25vh;
-    margin-left: 19.8vw;
     padding-bottom: .1rem;
     height: 30vh;
     margin-left: 19.8vw;
@@ -576,6 +554,8 @@ section.car-descriptionf section.rectanglish {
     margin-left: 19.8vw
 
 }
+
+
 
 .car-description {
     border-bottom: #B62431 solid;
@@ -1959,6 +1939,8 @@ section.colors {
     display: flex;
     justify-content: center;
     border: #B62431 solid;
+    border-left: none;
+    border-right: none;
 
 }
 
@@ -2239,6 +2221,82 @@ section.qty p {
     width:fit-content
 }
 
+
+
+section.cart-listing {
+    justify-content: flex-start;
+    margin-left: 2vw;
+    width: fit-content;
+}
+
+section.cart-stuff .orders {
+    border-color:#B62431
+}
+
+section.order img {
+    width: 10vw;
+    height: 20vh;
+    object-fit: cover; 
+}
+
+section.make-red section.order {
+    border-color: #B62431;
+    padding: .1rem;
+}
+
+button#minus-btn, button#plus-btn, input#quantity {
+    background-color: transparent;
+}
+
+input#quantity {
+    width: 3.5rem;
+    text-align: center;
+}
+
+section.order-content p, section.order-content h2 {
+    margin-left: 1rem;
+    width: 80%;
+}
+section.qty {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%
+}
+
+section.qty p {
+    width:fit-content
+}
+
+.quick {
+    margin-left: 5vw;
+}
+
+.black-widow-click {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.interior-cust {
+    width:48%;
+    height: fit-content;
+    align-self: center;
+    object-fit: contain;
+}
+
+section.ahero {
+    display: flex;
+    align-items: center;
+}
+
+section.ahero h1 {
+    background-color: rgba(110, 6, 6, 0.8);
+    width: fit-content;
+    padding: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 @media screen and (max-width: 1024px){
     figure.cars {
         display: flex;
@@ -2273,6 +2331,7 @@ section.qty p {
     .rectanglish h2 {
         margin-left: 29vw;
         margin-top: 3vh;
+        margin-bottom: 0;
     }
     
     .rectanglish p {
@@ -2289,7 +2348,8 @@ section.qty p {
     }
     
     .rectanglish p:last-of-type {
-        margin-left: 47vw
+        margin-left: 47vw;
+        margin-top: 1vh
     }
     .login {
         display: flex;
@@ -2314,10 +2374,8 @@ section.qty p {
     }
     section.CEO {
         justify-content: center;
-        width: 95%;
+        width: 100%;
     }
-
-
     article.CEO-description {
         width: fit-content;
         max-width: 100%;
@@ -2352,10 +2410,10 @@ section.qty p {
     li.right2 {
         margin-right: -4vw
     }
-<<<<<<< Updated upstream
     img.car-customization {
-        width: 60vw;
+        width: 57vw;
         object-fit: contain;
+        margin-right: 1vw;
     }
     section.contain-all {
         width: 50vw;
@@ -2383,10 +2441,8 @@ section.qty p {
         overflow-x:hidden
     }
     section.order img {
-        width: 30vw;
+        width: 20vw;
     }
-}
-=======
 
     .owned-car {
         width: 80%;
@@ -2408,52 +2464,68 @@ section.qty p {
     .time {
         height: 40%;
     }
+    section.order {
+        width: 100vw
+    }
+    section.order-content {
+        width:  100vw
+    }
+    section.history {
+        width: 100vw
+    }
+    section.cart {
+        width: 100%;
+    }
+    section.cart-listing {
+        width:90%
+    }
+    .car-descriptionf-alt {
+        height: fit-content;
+        position: relative;
+    }
+    .rectanglish-alt {
+        width: 100%
+    }
+    .car-descriptionf-alt img {
+        width: 20%;
+        height: 50%;
+        align-self: flex-end;
+        object-fit: contain;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+    section.car-descriptionf section.rectanglish {
+        background-position: -9vw;
+        z-index: 100;
+        margin-left: 0;
+        width: 100%;
+    }
 
+    h2.history {
+        width: 80%
+    }
+    .rec-merch {
+        margin-left: 70%
+    }
+    section.orders {
+        width: 64vw
+    }
+    section.order-content, section.order {
+        width:fit-content
+    }
+    section.order-content p:first-of-type {
+        width: 40vw
+    }
+    section.qty {
+        width: 10%;
+        justify-self:flex-end
+    }
+    section.qty p:first-of-type {
+        width: 10vw
+    }
+    section.imgli, section.config-imgli, section.config-imgli img {
+        width:80%
+    }
 }
-
-
-section.cart-listing {
-    justify-content: flex-start;
-    margin-left: 2vw;
-    width: fit-content;
-}
-
-section.cart-stuff .orders {
-    border-color:#B62431
-}
-
-section.order img {
-    width: 10vw;
-    height: 20vh;
-    object-fit: cover; 
-}
-
-
-section.make-red section.order {
-    border-color: #B62431;
-    padding: .1rem;
-}
-
-button#minus-btn, button#plus-btn, input#quantity {
-    background-color: transparent;
-}
-input#quantity {
-    width: 3.5rem;
-    text-align: center;
-}
-
-section.order-content p, section.order-content h2 {
-    margin-left: 1rem;
-    width: 80%;
-}
-section.qty {
-    display: flex;
-    justify-content: flex-end;
-    width: 80%
-}
-
-section.qty p {
-    width:fit-content
-}
-
->>>>>>> Stashed changes
