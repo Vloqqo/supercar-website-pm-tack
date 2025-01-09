@@ -390,28 +390,6 @@ ul li ul li {
     line-height: 6vh
 }
 
-/* GET RID OF LATER
-.hex-alt {
-    display: flex;
-    height: 20vh;
-    width: 70%;
-    flex-flow: row wrap;
-    margin-top: 10vh;
-    justify-content: flex-end;
-    margin-left: 29vw
-}
-
-.hex-alt >.hexagon-content > h2 {
-    margin-left: 45vw;
-}
-
-.hex-alt > .hexagon-content {
-    padding-right: 10rem;
-    padding-left: 2rem;
-    margin-right: -9rem
-} */
-
-
 .footer {
     border-top: solid white 3px;
     color: white;
@@ -447,7 +425,6 @@ img.orange {
     transform: scaleX(-1);
     margin-bottom: 6vh;
 }
-
 
 .carousel {
     width: 30vw;
@@ -564,7 +541,6 @@ img.hex-img {
     margin-top: -0.1vw;
     padding-top: .1rem;
     height: 25vh;
-    margin-left: 19.8vw;
     padding-bottom: .1rem;
     height: 30vh;
     margin-left: 19.8vw;
