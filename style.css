@@ -427,9 +427,11 @@ img.orange {
 }
 
 .carousel {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
     width: 30vw;
     position: absolute;
-    margin: 2vw auto auto;
     margin-top: 0;
 }
 
@@ -1937,6 +1939,8 @@ section.colors {
     display: flex;
     justify-content: center;
     border: #B62431 solid;
+    border-left: none;
+    border-right: none;
 
 }
 
@@ -2357,7 +2361,7 @@ section.qty p {
     }
     section.CEO {
         justify-content: center;
-        width: 95%;
+        width: 100%;
     }
     article.CEO-description {
         width: fit-content;
@@ -2484,8 +2488,8 @@ section.qty p {
         z-index: 100;
         margin-left: 0;
         width: 100%;
-        height:
     }
+
     h2.history {
         width: 80%
     }
