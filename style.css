@@ -2418,8 +2418,9 @@ section.qty p {
         margin-right: -4vw
     }
     img.car-customization {
-        width: 60vw;
+        width: 57vw;
         object-fit: contain;
+        margin-right: 1vw;
     }
     section.contain-all {
         width: 50vw;
@@ -2470,7 +2471,6 @@ section.qty p {
     .time {
         height: 40%;
     }
-
     section.order {
         width: 100vw
     }
@@ -2484,7 +2484,7 @@ section.qty p {
         width: 100%;
     }
     section.cart-listing {
-        width:100%
+        width:90%
     }
     .car-descriptionf-alt {
         height: fit-content;
@@ -2509,5 +2509,30 @@ section.qty p {
         margin-left: 0;
         width: 100%;
         height:
+    }
+    h2.history {
+        width: 80%
+    }
+    .rec-merch {
+        margin-left: 70%
+    }
+    section.orders {
+        width: 64vw
+    }
+    section.order-content, section.order {
+        width:fit-content
+    }
+    section.order-content p:first-of-type {
+        width: 40vw
+    }
+    section.qty {
+        width: 10%;
+        justify-self:flex-end
+    }
+    section.qty p:first-of-type {
+        width: 10vw
+    }
+    section.imgli, section.config-imgli, section.config-imgli img {
+        width:80%
     }
 }
