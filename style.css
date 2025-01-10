@@ -26,7 +26,7 @@
     --border: 2px solid #000000;
     --left-concierge-bg: #ff0000;
     --right-concierge-bg: #579ffb;
-  }
+}
 
 h1 {
     text-align: center;
@@ -115,7 +115,8 @@ ul.dropdown li {
     z-index: 9;
 }
 
-.popup-container button, label {
+.popup-container button,
+label {
     margin-top: 3rem;
 }
 
@@ -193,7 +194,8 @@ ul.dropdown li {
     color: #717171;
 }
 
-.dropbtn:hover, .dropbtn:focus {
+.dropbtn:hover,
+.dropbtn:focus {
     font-weight: 400;
 }
 
@@ -218,7 +220,7 @@ ul.dropdown li {
     display: none;
 }
 
-.clickdrop-content .labtn{
+.clickdrop-content .labtn {
     display: block;
 }
 
@@ -239,7 +241,7 @@ li {
 }
 
 li.png {
-   width: 3rem; 
+    width: 3rem;
 }
 
 li.png2 {
@@ -279,7 +281,7 @@ li:focus-within a {
     outline: none;
 }
 
-ul.header li:nth-child(3){
+ul.header li:nth-child(3) {
     padding-right: 4rem;
 }
 
@@ -298,8 +300,8 @@ ul li ul {
     display: none;
 }
 
-ul li:hover > ul,
-ul li:focus-within > ul,
+ul li:hover>ul,
+ul li:focus-within>ul,
 ul li ul:hover,
 ul li ul:focus {
     visibility: visible;
@@ -331,7 +333,7 @@ ul li ul li {
     text-decoration: none;
     color: white;
     font-size: 25px;
-    transition: color 200ms ease-in; 
+    transition: color 200ms ease-in;
 }
 
 .contact h3 {
@@ -408,14 +410,15 @@ ul li ul li {
     padding: 0.5rem;
 }
 
-input, textarea {
-    background-color:rgb(255, 255, 255, 0.3);
+input,
+textarea {
+    background-color: rgb(255, 255, 255, 0.3);
     border: none;
     border-radius: .2rem;
     color: white;
 }
 
-input::placeholder, 
+input::placeholder,
 textarea::placeholder {
     color: white;
     text-indent: .2vw;
@@ -439,19 +442,20 @@ img.orange {
     max-width: 15vw;
     position: relative;
     margin: 2vh auto 0 5vw;
-  }
-  
-  /* Hide the images by default */
-  .mySlides {
-    display: none;
-  }
+}
 
-  img {
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+img {
     vertical-align: middle;
-  }
-  
-  /* Next & previous buttons */
-  .prev, .next {
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -464,21 +468,22 @@ img.orange {
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
+}
+
+/* Position the "next button" to the right */
+.next {
     right: 0;
     border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
-  
-  /* Caption text */
-  .text {
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
     color: #f2f2f2;
     font-size: 15px;
     padding: 8px 12px;
@@ -486,19 +491,19 @@ img.orange {
     bottom: 8px;
     width: 100%;
     text-align: center;
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
     color: #f2f2f2;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
     top: 0;
-  }
-  
-  /* The dots/bullets/indicators */
-  .dot {
+}
+
+/* The dots/bullets/indicators */
+.dot {
     cursor: pointer;
     height: 15px;
     width: 15px;
@@ -507,22 +512,28 @@ img.orange {
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
-  }
-  
-  .active, .dot:hover {
+}
+
+.active,
+.dot:hover {
     background-color: #717171;
-  }
-  
-  /* Fading animation */
-  .fade {
+}
+
+/* Fading animation */
+.fade {
     animation-name: fade;
     animation-duration: 1.5s;
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
 
 /* make image transparent */
 img.black {
@@ -552,7 +563,6 @@ img.hex-img {
 section.car-descriptionf section.rectanglish {
     margin: 0;
     margin-left: 19.8vw
-
 }
 
 
@@ -606,7 +616,7 @@ ul.list li {
 }
 
 .account-big {
-    color:white;
+    color: white;
     display: flex;
 }
 
@@ -663,20 +673,20 @@ button.save {
 img.models {
     width: 100%;
     height: 70vh;
-    object-fit:cover
+    object-fit: cover
 }
 
 .rectanglish-alt {
-        color: white;
-        background-image: url(/images/rectanglish-alt.svg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 80%;
-        margin-top: -0.1vw;
-        padding-top: .1rem;
-        padding-bottom: .1rem;
-        height: 30vh;
-        margin-top: 1vh;
+    color: white;
+    background-image: url(/images/rectanglish-alt.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+    margin-top: -0.1vw;
+    padding-top: .1rem;
+    padding-bottom: .1rem;
+    height: 30vh;
+    margin-top: 1vh;
 }
 
 .rectanglish-alt h2 {
@@ -704,7 +714,7 @@ img.models {
 
 .cpage {
     border-bottom: 1px solid white;
-    width:fit-content;
+    width: fit-content;
     display: flex;
     justify-self: center;
 }
@@ -717,6 +727,7 @@ img.models {
     height: 50vh;
     border-radius: .8rem;
 }
+
 .customizing {
     display: flex;
     width: 100%;
@@ -726,15 +737,15 @@ img.models {
 .customizing a {
     padding: 1rem;
     font-size: 24px;
-    font-weight: bold; 
-    color: rgb(255, 255, 255, 0.2)   
+    font-weight: bold;
+    color: rgb(255, 255, 255, 0.2)
 }
 
 a.on-page {
     color: white;
 }
 
-.customizing-content > ul {
+.customizing-content>ul {
     flex-flow: column wrap;
     width: max-content;
     margin: 0;
@@ -746,7 +757,7 @@ a.on-page {
     max-height: 46.862vh;
 }
 
-.customizing-content > ul.hidden > li {
+.customizing-content>ul.hidden>li {
     background-color: rgb(65, 65, 65);
     margin: 0;
     padding-bottom: 1rem;
@@ -761,8 +772,8 @@ a.on-page {
     padding: 1rem
 }
 
-.selection1 > h2 {
-    height:fit-content;
+.selection1>h2 {
+    height: fit-content;
     width: 100%;
     text-align: center;
     border-bottom: solid white 1px;
@@ -801,17 +812,18 @@ section.colors {
     flex-flow: column wrap;
 }
 
-.login form > input {
+.login form>input {
     margin: 2rem;
     padding: 0.5rem;
     width: 20rem;
 }
 
-.login form > input, textarea {
+.login form>input,
+textarea {
     color: black;
 }
 
-.login form > a {
+.login form>a {
     padding: 0.5rem;
     margin: 2rem;
     width: 20rem;
@@ -820,8 +832,8 @@ section.colors {
     text-align: center;
 }
 
-.login form > section {
-    margin-left: 2rem; 
+.login form>section {
+    margin-left: 2rem;
 }
 
 .login form input {
@@ -829,7 +841,7 @@ section.colors {
     border-radius: 0;
 }
 
-.login form > input::placeholder {
+.login form>input::placeholder {
     color: grey;
 }
 
@@ -859,7 +871,7 @@ section.colors {
     position: relative;
 }
 
-.owned-car img{
+.owned-car img {
     width: 25rem;
     height: 15rem;
 }
@@ -881,7 +893,8 @@ section.colors {
     width: 45%;
 }
 
-.cimg, .ocar-content {
+.cimg,
+.ocar-content {
     height: 35vh;
 }
 
@@ -920,46 +933,52 @@ button.choose-customize {
     border-radius: 5px;
     background: var(--body-bg);
     box-shadow: 0 15px 15px -5px rgba(0, 0, 0, 0.2);
-  }
-  
-  .concierge-header {
+}
+
+.concierge-header {
     display: flex;
     justify-content: space-between;
     padding: 10px;
     border-bottom: var(--border);
     background: #353535;
     color: #666;
-  }
-  
-  .concierge-header-title > p {
-    margin: 0
-  }
+}
 
-  .concierge-chat {
+.concierge-header-title>p {
+    margin: 0
+}
+
+.concierge-chat {
     flex: 1;
     overflow-y: auto;
     padding: 10px;
-  }
-  .concierge-chat::-webkit-scrollbar {
+}
+
+.concierge-chat::-webkit-scrollbar {
     width: 6px;
-  }
-  .concierge-chat::-webkit-scrollbar-track {
+}
+
+.concierge-chat::-webkit-scrollbar-track {
     background: #ddd;
-  }
-  .concierge-chat::-webkit-scrollbar-thumb {
+}
+
+.concierge-chat::-webkit-scrollbar-thumb {
     background: #bdbdbd;
-  }
-  .concierge {
+}
+
+.concierge {
     display: flex;
     align-items: flex-end;
     margin-bottom: 10px;
     width: 150vw;
     height: 70vh;
-  }
-  .concierge:last-of-type {
+}
+
+.concierge:last-of-type {
     margin: 0;
-  }
-  .concierge-img {
+}
+
+.concierge-img {
     width: 50px;
     height: 50px;
     margin-right: 10px;
@@ -968,99 +987,110 @@ button.choose-customize {
     background-position: center;
     background-size: cover;
     border-radius: 50%;
-  }
-  .concierge-bubble {
+}
+
+.concierge-bubble {
     max-width: 450px;
     padding: 15px;
     border-radius: 15px;
     background: var(--left-concierge-bg);
-  }
-  .concierge-info {
+}
+
+.concierge-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
-  }
-  .concierge-info-name {
+}
+
+.concierge-info-name {
     margin-right: 10px;
     font-weight: bold;
-  }
-  .concierge-info-time {
+}
+
+.concierge-info-time {
     font-size: 0.85em;
-  }
-  
-  .left-concierge .concierge-bubble {
+}
+
+.left-concierge .concierge-bubble {
     border-bottom-left-radius: 0;
     align-self: flex-start;
-  }
+}
 
-  .left-concierge {
+.left-concierge {
     height: 10vh;
     display: flex;
-  }
+}
 
-  .concierge img {
+.concierge img {
     margin-left: -1vw;
-  }
+}
 
-  .right-concierge {
+.right-concierge {
     height: 10vh
-  }
-  .right-concierge .concierge-bubble {
+}
+
+.right-concierge .concierge-bubble {
     background: var(--right-concierge-bg);
     color: #fff;
     border-bottom-right-radius: 0;
-  }
-  .right-concierge .concierge-img {
+}
+
+.right-concierge .concierge-img {
     margin: 0 0 0 10px;
-  }
-  
-  .concierge-inputarea {
+}
+
+.concierge-inputarea {
     display: flex;
     padding: 10px;
     border-top: var(--border);
     background: #000000;
-  }
-  .concierge-inputarea * {
+}
+
+.concierge-inputarea * {
     padding: 10px;
     border: none;
     border-radius: 3px;
     font-size: 1em;
-  }
-  .concierge-input {
+}
+
+.concierge-input {
     flex: 1;
     background: #000000;
-  }
-  .concierge-send-btn {
+}
+
+.concierge-send-btn {
     margin-left: 10px;
     background: rgb(0, 196, 65);
     color: #fff;
     font-weight: bold;
     cursor: pointer;
     transition: background 0.23s;
-  }
-  .concierge-send-btn:hover {
-    background: rgb(0, 180, 50);
-  }
-  
-  .concierge-chat {
-    border: 1px white solid
-  }
+}
 
-  .concierge-content {
+.concierge-send-btn:hover {
+    background: rgb(0, 180, 50);
+}
+
+.concierge-chat {
+    border: 1px white solid
+}
+
+.concierge-content {
     width: 100%;
     justify-items: center;
-  }
+}
 
 .account-line {
     border-top: 1px white solid
 }
 
-.concierge-text > p {
+.concierge-text>p {
     margin: 0;
 }
 
-.concierge-info-name > h3, .concierge-info-time > h4 {
+.concierge-info-name>h3,
+.concierge-info-time>h4 {
     margin: 0;
     padding: 0;
 }
@@ -1079,7 +1109,7 @@ section.history {
 }
 
 section.orders {
-    display:flex;
+    display: flex;
     flex-flow: column nowrap;
     overflow: scroll;
     -ms-overflow-style: none;
@@ -1096,7 +1126,7 @@ section.order {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    height: 21vh;    
+    height: 21vh;
     border: 1px solid white;
 }
 
@@ -1106,8 +1136,8 @@ section.order h2 {
 }
 
 section.order-content {
-    height:100%;
-    width:100%;
+    height: 100%;
+    width: 100%;
 }
 
 section.order img {
@@ -1143,7 +1173,7 @@ section.order img {
 
 .rec-nav a:last-child {
     font-size: 15px;
-    color:#717171;
+    color: #717171;
     text-decoration: underline;
     padding: 1rem;
 }
@@ -1201,12 +1231,12 @@ section.order img {
     margin: 0;
     display: flex;
     flex-flow: column wrap;
-    border:#B62431 solid 2px;
+    border: #B62431 solid 2px;
     width: 100%;
 }
 
 #myUL li {
-    width: 100%; 
+    width: 100%;
 }
 
 #myInput {
@@ -1274,7 +1304,7 @@ ul.config {
 }
 
 ul.config li {
-    width:100%;
+    width: 100%;
     border-bottom: 1px solid white;
 }
 
@@ -1283,11 +1313,16 @@ button.img {
     border: none;
 }
 
-.fillout-info-rctngle h2, .fillout-info-adresss h3, .fillout-other h3, .fillout-info h2 {
+.fillout-info-rctngle h2,
+.fillout-info-adresss h3,
+.fillout-other h3,
+.fillout-info h2 {
     width: 100%;
 }
 
-.fillout-other, .fillout-info-rctngle, .fillout-info {
+.fillout-other,
+.fillout-info-rctngle,
+.fillout-info {
     width: fit-content;
 }
 
@@ -1374,11 +1409,10 @@ a.car-checkout {
 .confirmbttn a {
     padding: 1rem;
     background-color: rgba(255, 255, 255, 0.2)
-
 }
 
 .confirmbttn {
-    display:flex;
+    display: flex;
     justify-content: flex-end;
 }
 
@@ -1422,7 +1456,7 @@ a.car-checkout {
     font-size: 25px;
 }
 
-.time-content p{
+.time-content p {
     margin-top: 0rem;
     margin-left: 43%;
     margin-right: 40%;
@@ -1431,12 +1465,12 @@ a.car-checkout {
 .time-content p:nth-child(2) {
     border-top: lightgrey solid 1px;
     border-bottom: lightgrey solid 1px;
-    font-weight:  bold;
+    font-weight: bold;
 }
 
 .time-content p:last-child,
 .time-content p:first-child {
-    color:#bbb;
+    color: #bbb;
 }
 
 .bground {
@@ -1481,7 +1515,7 @@ section.config-content {
 }
 
 .confirm-customization {
-    display:flex;
+    display: flex;
     justify-content: flex-end;
 }
 
@@ -1717,7 +1751,7 @@ section.config-content {
 .store-columnC {
     display: flex;
     flex-flow: column wrap;
-    
+
 }
 
 .store-columnA img {
@@ -1729,7 +1763,7 @@ section.config-content {
     width: 20rem;
 }
 
-.store-columnB img{
+.store-columnB img {
     width: 15rem;
     height: 20rem;
 }
@@ -1755,7 +1789,7 @@ section.config-content {
 .store-columnB img,
 .store-columnC img {
     border: #B62431 solid 4px;
-   
+
 }
 
 .store-columnA figure:hover,
@@ -1788,13 +1822,13 @@ section.config-content {
     height: 55vh;
     background-color: #1F1A27;
     border-bottom: #B62431 solid;
-} 
+}
 
 a.mat-pick {
-  height: 5vh;
-  aspect-ratio: 1/cos(30deg);
-  clip-path: polygon(50% -50%,100% 50%,50% 150%,0 50%);
-  background-color: #bbb;
+    height: 5vh;
+    aspect-ratio: 1/cos(30deg);
+    clip-path: polygon(50% -50%, 100% 50%, 50% 150%, 0 50%);
+    background-color: #bbb;
 }
 
 a.roof-pick {
@@ -1806,6 +1840,7 @@ a.roof-pick {
 .menu-content:not(.active) {
     display: none;
 }
+
 .menu-content.active {
     display: block;
 }
@@ -1819,7 +1854,7 @@ a.roof-pick {
 }
 
 section.top-half-item-page {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     border-bottom: 1px solid white;
 }
@@ -1830,7 +1865,7 @@ section.top-half-item-page img {
 }
 
 section.item-image {
-    width:50%;
+    width: 50%;
 
 }
 
@@ -1864,7 +1899,7 @@ section.buy-item {
 }
 
 section.buy-item button {
-    background-color:rgb(65, 65, 65);
+    background-color: rgb(65, 65, 65);
     height: 5vh;
     width: 19.9vw;
 }
@@ -1903,6 +1938,7 @@ section.colors {
     border: none;
     width: 100%;
 }
+
 .ahero {
     display: flex;
     flex-flow: column;
@@ -1945,7 +1981,7 @@ section.colors {
     padding-left: 3rem;
 }
 
-.CEO-description p{
+.CEO-description p {
     margin-top: 3rem;
     font-size: 20px;
     line-height: 5vh;
@@ -1965,7 +2001,7 @@ section.colors {
     object-fit: cover;
     object-position: 0 0;
     aspect-ratio: 1/cos(30deg);
-    clip-path: polygon(50% -50%,100% 50%,50% 150%,0 50%);
+    clip-path: polygon(50% -50%, 100% 50%, 50% 150%, 0 50%);
     margin: 2rem;
 }
 
@@ -1990,16 +2026,16 @@ section.colors {
     font-size: 20px;
 }
 
-.employee-rowB figure{
+.employee-rowB figure {
     text-align: center;
     font-size: 20px;
 }
 
-.employee-rowA figure > img { 
+.employee-rowA figure>img {
     height: 20rem;
 }
 
-.employee-rowB figure > img{
+.employee-rowB figure>img {
     height: 20rem;
 }
 
@@ -2013,7 +2049,7 @@ section.colors {
 
 .bwdescription p {
     max-width: 70ch;
-}       
+}
 
 .ndescription p {
     max-width: 60ch;
@@ -2021,15 +2057,16 @@ section.colors {
 
 
 .hero-cont {
-    display:flex;
+    display: flex;
     flex-flow: column wrap;
-    align-content:flex-end;
+    align-content: flex-end;
     justify-content: center;
     height: 100%;
 }
 
-.aplusp a, .aplusp p {
-    width:max-content;
+.aplusp a,
+.aplusp p {
+    width: max-content;
     margin-bottom: 0;
     padding: 1rem;
     background-color: rgba(0, 0, 0, .5);
@@ -2048,7 +2085,7 @@ section.colors {
 }
 
 .store-choose li {
-    width:max-content;
+    width: max-content;
     height: max-content;
 }
 
@@ -2090,26 +2127,27 @@ section.colors {
     margin: 0;
 }
 
-.car-descriptionf-alt img{
+.car-descriptionf-alt img {
     width: 25rem;
     border-bottom: #B62431 solid;
 }
 
 .car-description-alt a {
-   margin-right: 30rem;
+    margin-right: 30rem;
 }
 
-.continue-custom a{
+.continue-custom a {
     display: flex;
 }
 
-.car-descriptionf img{
+.car-descriptionf img {
     width: 25vw;
     position: absolute;
     margin-top: 5.25%;
     border-bottom: #B62431 solid;
     transform: scaleX(-1);
 }
+
 .contain-all {
     width: fit-content;
 }
@@ -2128,15 +2166,15 @@ ul li.make-same {
 }
 
 .loadingscreen {
-position: absolute;
-  z-index: 11;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(255, 255, 255);
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
+    position: absolute;
+    z-index: 11;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .loadingscreen .load1 {
@@ -2146,7 +2184,7 @@ position: absolute;
     animation: slide-diagonal-right 600ms;
 }
 
-.loadingscreen .load2{
+.loadingscreen .load2 {
     position: absolute;
     right: 0;
     width: 100%;
@@ -2157,6 +2195,7 @@ position: absolute;
     from {
         transform: translateX(50vw) translateY(-150vh);
     }
+
     to {
         transform: translateX(0);
     }
@@ -2166,6 +2205,7 @@ position: absolute;
     from {
         transform: translateX(-50vw) translateY(150vh);
     }
+
     to {
         transform: translateX(0);
     }
@@ -2190,23 +2230,23 @@ position: absolute;
     line-height: 30px;
     color: white;
     border-radius: 1vw;
-  }
+}
 
 
-  section.cart-listing {
+section.cart-listing {
     justify-content: flex-start;
     margin-left: 2vw;
     width: fit-content;
 }
 
 section.cart-stuff .orders {
-    border-color:#B62431
+    border-color: #B62431
 }
 
 section.order img {
     width: 10vw;
     height: 20vh;
-    object-fit: cover; 
+    object-fit: cover;
 }
 
 
@@ -2215,18 +2255,23 @@ section.make-red section.order {
     padding: .1rem;
 }
 
-button#minus-btn, button#plus-btn, input#quantity {
+button#minus-btn,
+button#plus-btn,
+input#quantity {
     background-color: transparent;
 }
+
 input#quantity {
     width: 3.5rem;
     text-align: center;
 }
 
-section.order-content p, section.order-content h2 {
+section.order-content p,
+section.order-content h2 {
     margin-left: 1rem;
     width: 80%;
 }
+
 section.qty {
     display: flex;
     justify-content: flex-end;
@@ -2234,7 +2279,7 @@ section.qty {
 }
 
 section.qty p {
-    width:fit-content
+    width: fit-content
 }
 
 
@@ -2246,13 +2291,13 @@ section.cart-listing {
 }
 
 section.cart-stuff .orders {
-    border-color:#B62431
+    border-color: #B62431
 }
 
 section.order img {
     width: 10vw;
     height: 20vh;
-    object-fit: cover; 
+    object-fit: cover;
 }
 
 section.make-red section.order {
@@ -2260,7 +2305,9 @@ section.make-red section.order {
     padding: .1rem;
 }
 
-button#minus-btn, button#plus-btn, input#quantity {
+button#minus-btn,
+button#plus-btn,
+input#quantity {
     background-color: transparent;
 }
 
@@ -2269,10 +2316,12 @@ input#quantity {
     text-align: center;
 }
 
-section.order-content p, section.order-content h2 {
+section.order-content p,
+section.order-content h2 {
     margin-left: 1rem;
     width: 80%;
 }
+
 section.qty {
     display: flex;
     justify-content: flex-end;
@@ -2280,7 +2329,7 @@ section.qty {
 }
 
 section.qty p {
-    width:fit-content
+    width: fit-content
 }
 
 .quick {
@@ -2294,7 +2343,7 @@ section.qty p {
 }
 
 .interior-cust {
-    width:48%;
+    width: 48%;
     height: fit-content;
     align-self: center;
     object-fit: contain;
@@ -2313,68 +2362,76 @@ section.ahero h1 {
     padding-right: 1rem;
 }
 
-
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
     figure.cars {
         display: flex;
     }
 
-    img.black, img.orange {
+    img.black,
+    img.orange {
         margin: 0;
         width: 45vw;
         object-fit: contain;
         margin-bottom: 3vh
     }
+
     img.black {
         align-self: flex-end;
     }
+
     img.orange {
         margin-bottom: 5vh
     }
+
     .right1 {
         margin-right: -7vw
     }
+
     .hexagon-content {
         width: 70vw;
         margin-left: -12vw
     }
+
     .hexagon-content p {
         line-height: 2rem
     }
+
     .mySlides img {
         object-fit: contain;
         width: 25vw
     }
+
     .rectanglish h2 {
         margin-left: 29vw;
         margin-top: 3vh;
         margin-bottom: 0;
     }
-    
+
     .rectanglish p {
         margin-bottom: 3vh;
         margin-left: 30vw;
     }
-    
+
     .rectanglish p:first-of-type {
         margin-top: 3vh
     }
-    
+
     .rectanglish p:nth-of-type(2) {
         margin-left: 40vw
     }
-    
+
     .rectanglish p:last-of-type {
         margin-left: 47vw;
         margin-top: 1vh
     }
+
     .login {
         display: flex;
         justify-content: center;
         margin-top: 3rem;
         color: white;
     }
-    
+
     .login-container {
         display: flex;
         flex-flow: column;
@@ -2382,17 +2439,21 @@ section.ahero h1 {
         padding: 10rem;
         margin: 15vw
     }
+
     .actual-fix {
         width: 13vw
     }
+
     section.thisitem img {
         width: 21vw;
         height: 30vh;
     }
+
     section.CEO {
         justify-content: center;
         width: 100%;
     }
+
     article.CEO-description {
         width: fit-content;
         max-width: 100%;
@@ -2400,63 +2461,81 @@ section.ahero h1 {
         margin-left: 1vw;
         justify-content: center;
     }
+
     section.CEO img {
         height: 34vh;
         margin: 0;
         align-self: center
     }
+
     article.CEO-description p {
         width: 50vw;
         margin: 0;
     }
-    section.employee-rowA, section.employee-rowB {
+
+    section.employee-rowA,
+    section.employee-rowB {
         display: flex;
         flex-flow: row wrap;
-        width:100%
+        width: 100%
     }
-    section.employee-rowA img, section.employee-rowB img  {
+
+    section.employee-rowA img,
+    section.employee-rowB img {
         width: 30vw;
         object-fit: contain
     }
+
     section.about-orient {
         justify-content: space-around
     }
+
     article.about-content p {
         width: 39vw
     }
+
     li.right2 {
         margin-right: -4vw
     }
+
     img.car-customization {
         width: 57vw;
         object-fit: contain;
         margin-right: 1vw;
     }
+
     section.contain-all {
         width: 50vw;
     }
+
     section.all-customization {
         width: 40vw;
     }
+
     section.customizing-content {
         width: 40vw;
         margin-left: 1vw;
         padding: .7rem
     }
+
     a.color-pick {
         width: 4vw;
         height: 4vh;
     }
+
     section.colors2 {
         margin-top: 5vh;
     }
+
     section.car-descriptionf {
         height: 40vh
     }
+
     .concierge-chat {
         width: 82vw;
-        overflow-x:hidden
+        overflow-x: hidden
     }
+
     section.order img {
         width: 20vw;
     }
@@ -2481,28 +2560,36 @@ section.ahero h1 {
     .time {
         height: 40%;
     }
+
     section.order {
         width: 100vw
     }
+
     section.order-content {
-        width:  100vw
+        width: 100vw
     }
+
     section.history {
         width: 100vw
     }
+
     section.cart {
         width: 100%;
     }
+
     section.cart-listing {
-        width:90%
+        width: 90%
     }
+
     .car-descriptionf-alt {
         height: fit-content;
         position: relative;
     }
+
     .rectanglish-alt {
         width: 100%
     }
+
     .car-descriptionf-alt img {
         width: 20%;
         height: 50%;
@@ -2513,6 +2600,7 @@ section.ahero h1 {
         bottom: 0;
         z-index: -1;
     }
+
     section.car-descriptionf section.rectanglish {
         background-position: -9vw;
         z-index: 100;
@@ -2523,80 +2611,115 @@ section.ahero h1 {
     h2.history {
         width: 80%
     }
+
     .rec-merch {
         margin-left: 70%
     }
+
     section.orders {
         width: 64vw
     }
-    section.order-content, section.order {
-        width:fit-content
+
+    section.order-content,
+    section.order {
+        width: fit-content
     }
+
     section.order-content p:first-of-type {
         width: 40vw
     }
+
     section.qty {
         width: 10%;
-        justify-self:flex-end
+        justify-self: flex-end
     }
+
     section.qty p:first-of-type {
         width: 10vw
     }
-    section.imgli, section.config-imgli, section.config-imgli img {
-        width:80%
+
+    section.imgli,
+    section.config-imgli,
+    section.config-imgli img {
+        width: 80%
     }
 }
 
-@media screen and (max-width: 520px){
+@media screen and (max-width: 520px) {
     figure.cars {
         display: flex;
     }
 
-    img.black, img.orange {
+    .png img,
+    .png2 img {
+        width: 5.6vw;
+        object-fit: contain;
+    }
+
+    .home {
+        margin-left: 0vw
+    }
+
+    .home img {
+        width: 8vw
+    }
+
+    img.black,
+    img.orange {
         margin: 0;
         width: 45vw;
         object-fit: contain;
         margin-bottom: 3vh
     }
+
     img.black {
         align-self: flex-end;
     }
+
     img.orange {
         margin-bottom: 5vh
     }
+
     .right1 {
-        margin-right: -7vw
+        margin-left: -3vw;
+        margin-right: 0;
     }
+
     .hexagon-content {
         width: 70vw;
         margin-left: -12vw
     }
+
     .hexagon-content p {
-        line-height: 2rem
+        line-height: 1.4rem;
+        font-size: 16px;
     }
+
     .mySlides img {
         object-fit: contain;
         width: 25vw
     }
+
     .rectanglish h2 {
         margin-left: 29vw;
         margin-top: 3vh;
         margin-bottom: 0;
     }
-    
+
     .rectanglish p {
-        margin-bottom: 3vh;
+        margin-bottom: 1vh;
         margin-left: 30vw;
+        font-size: 16px;
     }
-    
+
     .rectanglish p:first-of-type {
         margin-top: 3vh
     }
-    
+
     .rectanglish p:nth-of-type(2) {
         margin-left: 40vw
     }
-    
+
     .rectanglish p:last-of-type {
         margin-left: 47vw;
         margin-top: 1vh
@@ -2608,7 +2731,7 @@ section.ahero h1 {
         margin-top: 3rem;
         color: white;
     }
-    
+
     .login-container {
         display: flex;
         flex-flow: column;
@@ -2617,7 +2740,7 @@ section.ahero h1 {
     }
 
     .actual-fix {
-        width: 13vw
+        width: 21vw
     }
 
     section.thisitem img {
@@ -2649,13 +2772,15 @@ section.ahero h1 {
         margin: 0;
     }
 
-    section.employee-rowA, section.employee-rowB {
+    section.employee-rowA,
+    section.employee-rowB {
         display: flex;
         flex-flow: row wrap;
-        width:100%
+        width: 100%
     }
 
-    section.employee-rowA img, section.employee-rowB img  {
+    section.employee-rowA img,
+    section.employee-rowB img {
         width: 30vw;
         object-fit: contain
     }
@@ -2669,32 +2794,45 @@ section.ahero h1 {
     }
 
     li.right2 {
-        margin-right: -4vw
+        margin-right: 0
+    }
+
+    a.nav {
+        font-size: 16px;
     }
 
     img.car-customization {
-        width: 57vw;
+        width: 120vw;
         object-fit: contain;
         margin-right: 1vw;
     }
 
     section.contain-all {
-        width: 50vw;
+        width: 70vw;
     }
 
     section.all-customization {
-        width: 40vw;
+        width: 70vw;
+    }
+
+    section.allandimage {
+        flex-flow: column;
+        align-items: center
     }
 
     section.customizing-content {
-        width: 40vw;
+        width: 90vw;
         margin-left: 1vw;
         padding: .7rem
     }
 
     a.color-pick {
-        width: 4vw;
+        width: 8vw;
         height: 4vh;
+    }
+
+    a.roof-pick {
+        width: 40vw
     }
 
     section.colors2 {
@@ -2707,7 +2845,7 @@ section.ahero h1 {
 
     .concierge-chat {
         width: 82vw;
-        overflow-x:hidden
+        overflow-x: hidden
     }
 
     section.order img {
@@ -2818,24 +2956,32 @@ section.ahero h1 {
     }
 
     section.order-content {
-        width:  100vw
+        width: 100vw
     }
+
     section.history {
         width: 100vw
     }
+
     section.cart {
         width: 100%;
     }
+
     section.cart-listing {
-        width:90%
+        width: 100%;
+        justify-content: center;
+        margin-left: 0;
     }
+
     .car-descriptionf-alt {
         height: fit-content;
         position: relative;
     }
+
     .rectanglish-alt {
         width: 100%
     }
+
     .car-descriptionf-alt img {
         width: 20%;
         height: 50%;
@@ -2846,37 +2992,54 @@ section.ahero h1 {
         bottom: 0;
         z-index: -1;
     }
+
     section.car-descriptionf section.rectanglish {
-        background-position: -9vw;
+        background-position: -70vw;
         z-index: 100;
         margin-left: 0;
         width: 100%;
+        height: 30vh;
+        font-size: 12px;
     }
 
     h2.history {
         width: 80%
     }
+
     .rec-merch {
-        margin-left: 70%
+        position: static;
+        border: #B62431 solid 3px;
+        width: 70%;
+        height: fit-content;
+        margin-left: 0;
     }
+
     section.orders {
         width: 64vw
     }
-    section.order-content, section.order {
-        width:fit-content
+
+    section.order-content,
+    section.order {
+        width: fit-content
     }
+
     section.order-content p:first-of-type {
         width: 40vw
     }
+
     section.qty {
         width: 10%;
-        justify-self:flex-end
+        justify-self: flex-end
     }
+
     section.qty p:first-of-type {
         width: 10vw
     }
-    section.imgli, section.config-imgli, section.config-imgli img {
-        width:80%
+
+    section.imgli,
+    section.config-imgli,
+    section.config-imgli img {
+        width: 80%
     }
 
     .datexplain {
@@ -2912,5 +3075,136 @@ section.ahero h1 {
 
 }
 
+    section.carousel {
+        z-index: -1;
+        height: fit-content;
+        width: 20vw
+    }
 
+    section.carousel img {
+        width: 40vw
+    }
 
+    section.rectanglish {
+        width: 100%;
+        margin-left: 0;
+        background-position: -42vw;
+    }
+
+    section.mcontent {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    div.slideshow-container {
+        height: 15vh;
+    }
+
+    img.hex-img {
+        height: 25vh;
+        object-fit: contain;
+    }
+
+    section.hex {
+        width: 100%;
+    }
+
+    article.hexagon-content {
+        background-image: none;
+        color: white;
+        padding: 1rem;
+        padding-left: 5rem;
+        font-size: 14px;
+        z-index: -1;
+        height: 30vh;
+        width: 40%;
+        border: none;
+    }
+
+    article.hexagon-content p,
+    article.hexagon-content h2 {
+        width: 20vw;
+        padding-left: 1vw;
+    }
+
+    article.hexagon-content p {
+        width: 30vw
+    }
+
+    img.arrow {
+        width: 72vw;
+        object-fit: contain;
+    }
+
+    section.car-chkout {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    section.fillout-info-rctngle {
+        width: 80%
+    }
+
+    section.fillout-other {
+        font-size: 16px
+    }
+
+    section.fillout-other input {
+        width: 28vw;
+        margin-left: 1vw
+    }
+
+    section.CEO {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    section.CEO img {
+        margin-top: 5vh
+    }
+
+    section.thisitem img {
+        width: 50vw;
+    }
+
+    section.aplusp p {
+        max-width: 50vw;
+    }
+
+    section.aplusp a {
+        max-width: 30vw;
+    }
+
+    section.item-info p {
+        line-height: 1.5vh;
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+
+    section.item-info h2 {
+        padding-bottom: 1rem;
+    }
+
+    section.item-image img {
+        object-fit: cover;
+        object-position: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    section.cart {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center
+    }
+    section.conditional {
+        width:100%;
+        display:flex;
+        justify-content: center;
+        margin-top: 5vh
+    }
+    .cart-listing section.order section.order-content {
+        width: 90vw
+    }
