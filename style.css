@@ -2529,3 +2529,239 @@ section.ahero h1 {
         width:80%
     }
 }
+
+@media screen and (max-width: 520px){
+    figure.cars {
+        display: flex;
+    }
+
+    img.black, img.orange {
+        margin: 0;
+        width: 45vw;
+        object-fit: contain;
+        margin-bottom: 3vh
+    }
+    img.black {
+        align-self: flex-end;
+    }
+    img.orange {
+        margin-bottom: 5vh
+    }
+    .right1 {
+        margin-right: -7vw
+    }
+    .hexagon-content {
+        width: 70vw;
+        margin-left: -12vw
+    }
+    .hexagon-content p {
+        line-height: 2rem
+    }
+    .mySlides img {
+        object-fit: contain;
+        width: 25vw
+    }
+    .rectanglish h2 {
+        margin-left: 29vw;
+        margin-top: 3vh;
+        margin-bottom: 0;
+    }
+    
+    .rectanglish p {
+        margin-bottom: 3vh;
+        margin-left: 30vw;
+    }
+    
+    .rectanglish p:first-of-type {
+        margin-top: 3vh
+    }
+    
+    .rectanglish p:nth-of-type(2) {
+        margin-left: 40vw
+    }
+    
+    .rectanglish p:last-of-type {
+        margin-left: 47vw;
+        margin-top: 1vh
+    }
+    .login {
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+        color: white;
+    }
+    
+    .login-container {
+        display: flex;
+        flex-flow: column;
+        border: #B62431 solid 2px;
+        padding: 10rem;
+        margin: 15vw
+    }
+    .actual-fix {
+        width: 13vw
+    }
+    section.thisitem img {
+        width: 21vw;
+        height: 30vh;
+    }
+    section.CEO {
+        justify-content: center;
+        width: 100%;
+    }
+    article.CEO-description {
+        width: fit-content;
+        max-width: 100%;
+        padding: 0;
+        margin-left: 1vw;
+        justify-content: center;
+    }
+    section.CEO img {
+        height: 34vh;
+        margin: 0;
+        align-self: center
+    }
+    article.CEO-description p {
+        width: 50vw;
+        margin: 0;
+    }
+    section.employee-rowA, section.employee-rowB {
+        display: flex;
+        flex-flow: row wrap;
+        width:100%
+    }
+    section.employee-rowA img, section.employee-rowB img  {
+        width: 30vw;
+        object-fit: contain
+    }
+    section.about-orient {
+        justify-content: space-around
+    }
+    article.about-content p {
+        width: 39vw
+    }
+    li.right2 {
+        margin-right: -4vw
+    }
+    img.car-customization {
+        width: 57vw;
+        object-fit: contain;
+        margin-right: 1vw;
+    }
+    section.contain-all {
+        width: 50vw;
+    }
+    section.all-customization {
+        width: 40vw;
+    }
+    section.customizing-content {
+        width: 40vw;
+        margin-left: 1vw;
+        padding: .7rem
+    }
+    a.color-pick {
+        width: 4vw;
+        height: 4vh;
+    }
+    section.colors2 {
+        margin-top: 5vh;
+    }
+    section.car-descriptionf {
+        height: 40vh
+    }
+    .concierge-chat {
+        width: 82vw;
+        overflow-x:hidden
+    }
+    section.order img {
+        width: 20vw;
+    }
+
+    .owned-car {
+        width: 80%;
+    }
+
+    .owner-car img {
+        width: 5vw;
+    }
+
+    .recommendation {
+        width: 30%;
+        bottom: -23.2%;
+    }
+
+    .search {
+        margin-left: 3rem;
+    }
+
+    .time {
+        height: 40%;
+    }
+    section.order {
+        width: 100vw
+    }
+    section.order-content {
+        width:  100vw
+    }
+    section.history {
+        width: 100vw
+    }
+    section.cart {
+        width: 100%;
+    }
+    section.cart-listing {
+        width:90%
+    }
+    .car-descriptionf-alt {
+        height: fit-content;
+        position: relative;
+    }
+    .rectanglish-alt {
+        width: 100%
+    }
+    .car-descriptionf-alt img {
+        width: 20%;
+        height: 50%;
+        align-self: flex-end;
+        object-fit: contain;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+    section.car-descriptionf section.rectanglish {
+        background-position: -9vw;
+        z-index: 100;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    h2.history {
+        width: 80%
+    }
+    .rec-merch {
+        margin-left: 70%
+    }
+    section.orders {
+        width: 64vw
+    }
+    section.order-content, section.order {
+        width:fit-content
+    }
+    section.order-content p:first-of-type {
+        width: 40vw
+    }
+    section.qty {
+        width: 10%;
+        justify-self:flex-end
+    }
+    section.qty p:first-of-type {
+        width: 10vw
+    }
+    section.imgli, section.config-imgli, section.config-imgli img {
+        width:80%
+    }
+}
+
+
+
