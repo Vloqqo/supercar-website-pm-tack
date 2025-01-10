@@ -83,11 +83,11 @@ ul.dropdown li {
 }
 
 .accessibility {
+    background-color: black;
     position: fixed;
     bottom: 1vh;
     right: .5vw;
     z-index: 1;
-    background-color: transparent;
 }
 
 .popup .popup-container h2 {
@@ -1396,6 +1396,20 @@ a.car-checkout {
     margin-top: -5%;
 }
 
+.confirm-pickup {
+    background-color: black;
+    position: absolute;
+    display: inline-block;
+    border-radius: 2rem;
+    border: #B62431 solid 2px;
+    width: 80%;
+    height: 50%;
+    z-index: 1000;
+    margin-left: 10%;
+    margin-top: 15%;
+    
+}
+
 .time h2 {
     text-align: center;
 }
@@ -1439,6 +1453,8 @@ a.car-checkout {
     display: flex;
     justify-content: center;
 }
+
+
 
 .thank-you {
     display: flex;
@@ -2297,6 +2313,7 @@ section.ahero h1 {
     padding-right: 1rem;
 }
 
+
 @media screen and (max-width: 1024px){
     figure.cars {
         display: flex;
@@ -2584,6 +2601,7 @@ section.ahero h1 {
         margin-left: 47vw;
         margin-top: 1vh
     }
+
     .login {
         display: flex;
         justify-content: center;
@@ -2595,20 +2613,23 @@ section.ahero h1 {
         display: flex;
         flex-flow: column;
         border: #B62431 solid 2px;
-        padding: 10rem;
-        margin: 15vw
+        padding: 0rem;
     }
+
     .actual-fix {
         width: 13vw
     }
+
     section.thisitem img {
         width: 21vw;
         height: 30vh;
     }
+
     section.CEO {
         justify-content: center;
         width: 100%;
     }
+
     article.CEO-description {
         width: fit-content;
         max-width: 100%;
@@ -2616,90 +2637,186 @@ section.ahero h1 {
         margin-left: 1vw;
         justify-content: center;
     }
+
     section.CEO img {
         height: 34vh;
         margin: 0;
         align-self: center
     }
+
     article.CEO-description p {
         width: 50vw;
         margin: 0;
     }
+
     section.employee-rowA, section.employee-rowB {
         display: flex;
         flex-flow: row wrap;
         width:100%
     }
+
     section.employee-rowA img, section.employee-rowB img  {
         width: 30vw;
         object-fit: contain
     }
+
     section.about-orient {
         justify-content: space-around
     }
+
     article.about-content p {
         width: 39vw
     }
+
     li.right2 {
         margin-right: -4vw
     }
+
     img.car-customization {
         width: 57vw;
         object-fit: contain;
         margin-right: 1vw;
     }
+
     section.contain-all {
         width: 50vw;
     }
+
     section.all-customization {
         width: 40vw;
     }
+
     section.customizing-content {
         width: 40vw;
         margin-left: 1vw;
         padding: .7rem
     }
+
     a.color-pick {
         width: 4vw;
         height: 4vh;
     }
+
     section.colors2 {
         margin-top: 5vh;
     }
+
     section.car-descriptionf {
         height: 40vh
     }
+
     .concierge-chat {
         width: 82vw;
         overflow-x:hidden
     }
+
     section.order img {
         width: 20vw;
     }
 
     .owned-car {
-        width: 80%;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        width: 70%;
+        padding-left: 5rem;
+        margin-bottom: -5rem;
     }
 
-    .owner-car img {
-        width: 5vw;
+    .ocar-content {
+        width: 30ch;
+        padding-left: 1rem;
+    }
+
+    .ocar-content p {
+        font-size: 20px;
+    }
+
+    .ocar-content h2 {
+        font-size: 25px
+    }
+
+    img.cimg {
+        width: 8rem;
+        height: 6rem;
     }
 
     .recommendation {
-        width: 30%;
-        bottom: -23.2%;
+        position: static;
+        width: 70%;
+        margin-top: 3rem;
+        margin-left: 3rem; 
+        margin-bottom: 10%;
+    }
+
+    .recommendation-content p {
+        font-size: 20px;
+    }
+
+    .rec-nav p {
+        font-size: 20px;
+    }
+
+    .rec-nav a {
+        font-size: 20px;
     }
 
     .search {
-        margin-left: 3rem;
+        margin: 0;
+    }
+
+    #myInput {
+        width: 20rem;
+        padding: 1rem 0rem 1rem 1rem;
+        text-align: left;
+    }
+
+    .calendar {
+        margin-left: 0;
+    }
+
+    .confirm {
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+
+    .confirm-alt {
+        font-size: 25px;
+        text-align: center;
+        width: 80%;
     }
 
     .time {
-        height: 40%;
+        margin-top: -80%;
+        height: 50%;
+        width: 80%;
+        margin-left: 10%;
     }
+
+    article.time-content p{
+        width: 40%;
+        display: flex; 
+        flex-flow: row;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .thank-you p{
+        padding-bottom: 4rem;
+    }
+
+    .time-content {
+        display: flex;
+        justify-content: center;
+        margin-left: 39%;
+    }
+
     section.order {
-        width: 100vw
+        width: 100vw;
     }
+
     section.order-content {
         width:  100vw
     }
@@ -2761,6 +2878,38 @@ section.ahero h1 {
     section.imgli, section.config-imgli, section.config-imgli img {
         width:80%
     }
+
+    .datexplain {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .explanation {
+        width: 90%;
+        height: 60%;
+    }
+
+    .explanation p {
+        width: 100%;
+    }
+
+    .calendar-car {
+        margin-left: 5%;
+        width: 80%;
+    }
+
+    .footer {
+        display: flex;
+        align-items: center;
+        flex-flow: column;
+        text-align: center;
+        height: 20rem;
+    }
+
+    .contact input{
+        padding: 1rem 3rem;
+    }
+
 }
 
 
