@@ -1043,12 +1043,11 @@ button.choose-customize {
 }
 
 .concierge-inputarea {
-    display: flex;
-    flex-flow: row wrap;
     padding: 10px;
     border-top: var(--border);
     background: #000000;
     width: 17vw;
+    justify-items: flex-end
 }
 
 .concierge-inputarea * {
@@ -1084,7 +1083,7 @@ input.concierge-input {
 
 .concierge-content {
     width: 100%;
-    justify-content: flex-end;
+    justify-content: center;
     display:flex;
     flex-flow: wrap;
 }
@@ -3215,7 +3214,16 @@ section.ahero h1 {
         width: 90vw
     }
 }
+
 section.chat {
     display:flex;
     justify-content: center;
+}
+
+.concierge-text-error {
+    text-align: center;
+}
+.concierge-text-error p {
+    color:#B62431;
+    font-size: 18px;
 }
