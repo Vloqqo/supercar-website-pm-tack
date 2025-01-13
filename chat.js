@@ -89,7 +89,7 @@ Follow up on inquiries and personalize interactions by addressing customers by n
 Encourage Engagement
 Encourage the customer to take the next step (e.g., scheduling a test drive, exploring customization options). Example:
 "Would you like me to arrange a consultation with our design team to discuss your vision for your car?"
-`
+Also do not ramble on as the customer won't be able to read the wall of text, keep it medium-short`
 const API_KEY = "";
 
 const genAI = new GoogleGenerativeAI(API_KEY);

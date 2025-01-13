@@ -2809,11 +2809,15 @@ section.ahero h1 {
     }
 
     img.car-customization {
-        width: 120vw;
+        width: 100%;
+        margin-top: 1vh;
         object-fit: contain;
         margin-right: 1vw;
     }
 
+    .confirm-customization a {
+        margin-top: .5vh;
+    }
     section.contain-all {
         width: 70vw;
     }
@@ -3214,9 +3218,6 @@ section.ahero h1 {
     }
     .cart-listing section.order section.order-content {
         width: 90vw
-    }
-    section.settings {
-        flex-flow: row wrap;
     }
     .account-pic {
         width: 40vw
