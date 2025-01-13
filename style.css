@@ -948,6 +948,8 @@ button.choose-customize {
     margin: 0
 }
 
+
+
 .concierge-chat {
     flex: 1;
     overflow-y: auto;
@@ -1042,9 +1044,11 @@ button.choose-customize {
 
 .concierge-inputarea {
     display: flex;
+    flex-flow: row wrap;
     padding: 10px;
     border-top: var(--border);
     background: #000000;
+    width: 17vw;
 }
 
 .concierge-inputarea * {
@@ -1054,9 +1058,10 @@ button.choose-customize {
     font-size: 1em;
 }
 
-.concierge-input {
+input.concierge-input {
     flex: 1;
     background: #000000;
+    width: 10vw
 }
 
 .concierge-send-btn {
@@ -1073,12 +1078,15 @@ button.choose-customize {
 }
 
 .concierge-chat {
-    border: 1px white solid
+    border: 1px white solid;
+    overflow-y: scroll;
 }
 
 .concierge-content {
     width: 100%;
-    justify-items: center;
+    justify-content: flex-end;
+    display:flex;
+    flex-flow: wrap;
 }
 
 .account-line {
@@ -3073,8 +3081,6 @@ section.ahero h1 {
         padding: 1rem 3rem;
     }
 
-}
-
     section.carousel {
         z-index: -1;
         height: fit-content;
@@ -3208,3 +3214,8 @@ section.ahero h1 {
     .cart-listing section.order section.order-content {
         width: 90vw
     }
+}
+section.chat {
+    display:flex;
+    justify-content: center;
+}
