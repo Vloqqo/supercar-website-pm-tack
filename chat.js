@@ -120,7 +120,7 @@ Encourage Engagement
 Encourage the customer to take the next step (e.g., scheduling a test drive, exploring customization options). Example:
 "Would you like me to arrange a consultation with our design team to discuss your vision for your car?"
 `
-
+const API_KEY = "ADD LOCALLY DONT PUSH WITH API KEY";
 
 const genAI = new GoogleGenerativeAI(API_KEY);
 const model = genAI.getGenerativeModel({
