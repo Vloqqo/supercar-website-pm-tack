@@ -1,6 +1,7 @@
 
 
 import { GoogleGenerativeAI } from "@google/generative-ai";
+const API_KEY = "";
 
 const businessInfo = ` Business Data for Trion Supercars
 Company Information
@@ -120,7 +121,6 @@ Encourage Engagement
 Encourage the customer to take the next step (e.g., scheduling a test drive, exploring customization options). Example:
 "Would you like me to arrange a consultation with our design team to discuss your vision for your car?"
 `
-const API_KEY = "ADD LOCALLY DONT PUSH WITH API KEY";
 
 const genAI = new GoogleGenerativeAI(API_KEY);
 const model = genAI.getGenerativeModel({
@@ -142,7 +142,6 @@ async function sendMessage() {
         document.querySelector(".concierge-chat").insertAdjacentHTML("beforeend", `
             
             <section class="concierge right-concierge">
-
             <section class="concierge-bubble">
                 <section class="concierge-info">
                     <section class="concierge-info-name">
@@ -152,7 +151,6 @@ async function sendMessage() {
                         <h4>5:07</h4>
                     </section>
                 </section>
-
                 <section class="concierge-text">
                     <p>${userMessage}</p>
                     </section>
@@ -192,13 +190,11 @@ async function sendMessage() {
                                 });
     } catch (error) {
         document.querySelector(".concierge-chat").insertAdjacentHTML("beforeend", `
-
                 <section class="concierge-text-error">
                     <p>No availiable representatives at this time. Please try again later.</p>
                     </section>
                     </section>
                     `);
-
     }
 
                       console.log(result.response.text());

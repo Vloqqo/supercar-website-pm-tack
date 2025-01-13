@@ -2851,7 +2851,7 @@ section.ahero h1 {
     }
 
     .concierge-chat {
-        width: 82vw;
+        width: 42vw;
         overflow-x: hidden
     }
 
@@ -2867,7 +2867,9 @@ section.ahero h1 {
         padding-left: 5rem;
         margin-bottom: -5rem;
     }
-
+    section.concierge {
+        justify-content: flex-start
+    }
     .ocar-content {
         width: 30ch;
         padding-left: 1rem;
@@ -3212,6 +3214,9 @@ section.ahero h1 {
     }
     .cart-listing section.order section.order-content {
         width: 90vw
+    }
+    ul.list {
+
     }
 }
 
