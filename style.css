@@ -69,6 +69,10 @@ ul.dropdown li {
     border: 1px solid white;
 }
 
+ul.account-dropdown li {
+    border: 1px solid white;
+}
+
 .home {
     margin-left: -4vw;
 }
@@ -287,6 +291,14 @@ ul.header li:nth-child(3) {
 
 ul.dropdown li:nth-child(3) {
     padding-right: 1rem;
+}
+
+ul.account-dropdown li:nth-child(3) {
+    padding-right: 1rem;
+}
+
+.account-dropdown li {
+    padding-top: 1rem;
 }
 
 ul li ul {
@@ -599,20 +611,17 @@ div.account-line {
     border: 1px solid white
 }
 
-ul.list {
-    flex-flow: column wrap;
-    border: none;
-    color: white;
-    width: 9rem;
-    border-right: 1px solid white;
-    margin-left: 0;
-    margin-right: 0;
+ul.list li {
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+    width: 15rem;
+    font-size: 20px;
 }
 
-ul.list li {
-    margin-top: 7vh;
-    margin-bottom: 7vh;
-    width: auto;
+ul.list li h2 {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 30px;
 }
 
 .account-big {
@@ -2368,6 +2377,29 @@ section.ahero h1 {
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
 
 @media screen and (max-width: 1024px) {
     figure.cars {
