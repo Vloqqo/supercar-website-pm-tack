@@ -2299,7 +2299,14 @@ section.qty p {
     width: fit-content
 }
 
-
+a.New-Buttons {
+    width: 10rem;
+    height: 2rem;
+    font-size: 20px;
+    background-color: #353535;
+    border-bottom: 1px solid;
+    padding-top: .2rem
+}
 
 section.cart-listing {
     justify-content: flex-start;
@@ -2391,9 +2398,9 @@ section.ahero h1 {
     font-size: 15px;
   }
   
-  .active, .collapsible:hover {
+  /* .active, .collapsible:hover {
     background-color: #ccc;
-  }
+  } */
   
   .content {
     padding: 0 18px;
