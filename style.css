@@ -936,7 +936,6 @@ button.choose-customize {
     width: 100%;
     max-width: 80vw;
     margin: 25px 10px;
-    height: calc(100% - 50px);
     border: var(--border);
     border-radius: 5px;
     background: var(--body-bg);
@@ -981,7 +980,6 @@ button.choose-customize {
     align-items: flex-end;
     margin-bottom: 10px;
     width: 150vw;
-    height: 70vh;
 }
 
 .concierge:last-of-type {
@@ -1028,17 +1026,9 @@ button.choose-customize {
     align-self: flex-start;
 }
 
-.left-concierge {
-    height: 10vh;
-    display: flex;
-}
 
 .concierge img {
     margin-left: -1vw;
-}
-
-.right-concierge {
-    height: 10vh
 }
 
 .right-concierge .concierge-bubble {
@@ -1088,6 +1078,8 @@ input.concierge-input {
 .concierge-chat {
     border: 1px white solid;
     overflow-y: scroll;
+    min-height: 70vh;
+    max-height: 70vh;
 }
 
 .concierge-content {
@@ -2273,11 +2265,11 @@ section.make-red section.order {
 
 button#minus-btn,
 button#plus-btn,
-input#quantity {
+input[id*=quantity] {
     background-color: transparent;
 }
 
-input#quantity {
+input[id*=quantity] {
     width: 3.5rem;
     text-align: center;
 }

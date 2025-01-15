@@ -1,3 +1,9 @@
+date_data= new Date()
+current_hour = date_date.getHours()
+current_minute = date_data.getMinutes()
+
+document.querySelectorAll(".datetime").textContent = `${current_hour}:${current_minute}`;
+
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
 const businessInfo = ` Business Data for Trion Supercars
@@ -118,7 +124,7 @@ async function sendMessage() {
                         <h3>XXXXX</h3>
                     </section>
                     <section class="concierge-info-time">
-                        <h4>5:07</h4>
+                        <h4 class="datetime></h4>
                     </section>
                 </section>
                 <section class="concierge-text">
@@ -139,7 +145,7 @@ async function sendMessage() {
                                     <h3>Representative</h3>
                                 </section>
                                 <section class="concierge-info-time">
-                                    <h4>5:07</h4>
+                                    <h4 class="datetime"></h4>
                                 </section>
                             </section>
             
