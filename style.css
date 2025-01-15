@@ -2569,8 +2569,8 @@ section.ahero h1 {
         height: 40vh
     }
 
-    .concierge-chat {
-        width: 82vw;
+    section.concierge-chat {
+        width: 80vw;
         overflow-x: hidden
     }
 
@@ -2687,7 +2687,9 @@ section.ahero h1 {
     figure.cars {
         display: flex;
     }
-
+    section.concierge-bubble {
+        max-width: 70vw;
+    }
     .png img,
     .png2 img {
         width: 5.6vw;
@@ -3083,7 +3085,15 @@ section.ahero h1 {
     section.imgli,
     section.config-imgli,
     section.config-imgli img {
-        width: 80%
+        width: 100%;
+        object-fit: contain;
+    }
+    section.config-imgli {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    ul.config {
+        width: 100%
     }
 
     .datexplain {
