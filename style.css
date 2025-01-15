@@ -99,10 +99,9 @@ ul.account-dropdown li {
 }
 
 .open-button {
-    background-color: rgba(0, 0, 0, 0);
-    color: white;
-    border: none;
+    background-color: black;
     cursor: pointer;
+    border: none;
 }
 
 .popup {
