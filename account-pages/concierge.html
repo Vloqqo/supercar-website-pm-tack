@@ -67,7 +67,8 @@
         </section>
     </section>
     <ul class="list">
-        <li class="fixing-this-rn"><h2>Account Tabs</h2>
+        <li class="fixing-this-rn">
+            <h2>Account Tabs</h2>
             <ul class="dropdown">
                 <li><a href="/account-pages/account-page.html#account">Settings</a></li>
                 <li><a href="/account-pages/concierge.html#account">Concierge</a></li>
@@ -75,9 +76,9 @@
                 <li><a href="/account-pages/saved-config.html#account">Saved Car</a></li>
             </ul>
         </li>
-    </ul>    
+    </ul>
     <section class="account-line">
-        <section class="settings">          
+        <section class="settings">
             <section class="concierge-content">
                 <section class="chat">
                     <section class="concierge">
@@ -96,24 +97,25 @@
                                             <h3>Representative</h3>
                                         </section>
                                         <section class="concierge-info-time">
-                                            <h4>5:05</h4>
+                                            <h4 class="datetime"></h4>
                                         </section>
                                     </section>
 
                                     <section class="concierge-text">
-                                        <p>Hi, Thank you for using our concierge service. What is it that you need help with?</p>
+                                        <p>Hi, Thank you for using our concierge service. What is it that you need help
+                                            with?</p>
                                     </section>
                                 </section>
                             </section>
+                        </section>
+                        <form class="concierge-inputarea">
+                            <input type="text" class="concierge-input" placeholder="Enter your message...">
+                            <button type="submit" class="concierge-send-btn">Send</button>
+                        </form>
+                    </section>
+                </section>
             </section>
-        <form class="concierge-inputarea">
-            <input type="text" class="concierge-input" placeholder="Enter your message...">
-            <button type="submit" class="concierge-send-btn">Send</button>
-        </form>
-    </section>
-    </section>
-    </section>
-    </section>
+        </section>
     </section>
     <footer class="footer account">
         <p><a href="#"><strong>About Us</strong></a></p>
@@ -140,5 +142,6 @@
 </script>
     <script type="module" src="/chat.js"></script>
 </body>
+
 
 </html>
