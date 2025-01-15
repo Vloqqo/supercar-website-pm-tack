@@ -102,6 +102,7 @@ ul.account-dropdown li {
     background-color: black;
     cursor: pointer;
     border: none;
+    z-index: 10000;
 }
 
 .popup {
@@ -2683,7 +2684,7 @@ section.ahero h1 {
     }
 }
 
-@media screen and (max-width: 520px) {
+    @media screen and (max-width: 720px) {
     figure.cars {
         display: flex;
     }
