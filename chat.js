@@ -1,10 +1,13 @@
-date_data= new Date()
-current_hour = date_date.getHours()
-current_minute = date_data.getMinutes()
-
-document.querySelectorAll(".datetime").textContent = `${current_hour}:${current_minute}`;
 
 import { GoogleGenerativeAI } from "@google/generative-ai";
+
+let date_data= new Date()
+let localDate = date_data.toLocaleString();
+let current_hour = date_data.getHours()
+let current_minute = date_data.getMinutes()
+
+document.querySelector(".datetime").textContent = `${localDate}`;
+console.log(current_hour,current_minute);
 
 const businessInfo = ` Business Data for Trion Supercars
 Company Information
@@ -145,7 +148,7 @@ async function sendMessage() {
                                     <h3>Representative</h3>
                                 </section>
                                 <section class="concierge-info-time">
-                                    <h4 class="datetime"></h4>
+                                    <h4 class="datetime">${localDate}</h4>
                                 </section>
                             </section>
             
