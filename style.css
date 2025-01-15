@@ -2266,11 +2266,11 @@ section.make-red section.order {
 
 button#minus-btn,
 button#plus-btn,
-input#quantity {
+input[id*=quantity] {
     background-color: transparent;
 }
 
-input#quantity {
+input[id*=quantity] {
     width: 3.5rem;
     text-align: center;
 }
