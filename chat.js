@@ -127,7 +127,7 @@ async function sendMessage() {
                         <h3>XXXXX</h3>
                     </section>
                     <section class="concierge-info-time">
-                        <h4 class="datetime></h4>
+                        <h4 class="datetime">${localDate}</h4>
                     </section>
                 </section>
                 <section class="concierge-text">

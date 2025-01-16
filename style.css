@@ -3272,7 +3272,55 @@ section.ahero h1 {
     .rectanglish h2 {
         margin-top: 1.5vh
     }
-
+    .concierge-inputarea {
+        width: 70vw
+    }
+    input.concierge-input {
+        width: 40vw;
+    }
+    .concierge {
+        width: auto;
+    }
+    ul.list li.fixing-this-rn {
+        margin-right: 8vw;
+    }
+    .account-big-c {
+        margin-left: 9vw;
+        width: 35vw;
+    }
+    section.car-descriptionf .rectanglish p:last-of-type {
+        margin-left: 40vw;
+    }
+    .rectanglish-alt p:last-of-type {
+        margin: 0;
+        width: 99%;
+        text-align: center;
+        margin: 1vw
+    }
+    .calendar-car {
+        margin: .5%;
+        width: 99%;
+    }
+    .datexplain .calendar {
+        width: 100%
+    }
+    .login form input {
+        width: 60vw;
+        margin-left: 8vw;
+    }
+    input#rm {
+        width: 6vw;
+    }
+    .login form>a {
+        width: 20vw
+    }
+    .recommendation {
+        margin-left: 4.56rem
+    }
+    .confirm a {
+        margin: 0;
+        margin-bottom: 3vh;
+    }
 
 }
 
@@ -3334,4 +3382,13 @@ ul.list li.fixing-this-rn {
 
 ul.list {
     justify-content: flex-end;
+}
+
+section.settings button {
+    background-color: #353535;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    padding: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
