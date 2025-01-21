@@ -73,15 +73,6 @@ window.onclick = function(event) {
 
 
 
-// function showoptions() {
-//   var x = document.getElementById("selection1", "selection2");
-//   if (x.style.display === "none") {
-//     x.style.display = "block";
-//   } else {
-//     x.style.display = "none";
-//   }
-// }
-
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
